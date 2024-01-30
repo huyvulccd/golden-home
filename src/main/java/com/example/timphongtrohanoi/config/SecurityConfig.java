@@ -23,6 +23,7 @@ public class SecurityConfig {
                 .and()
                 .logout()
                 .permitAll();
+        // Sua phan nay
         return http.build();
     }
 }
