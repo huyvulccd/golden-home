@@ -1,0 +1,16 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-col-align-center {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

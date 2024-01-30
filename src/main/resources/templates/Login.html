@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/common.js"></script>
+    <link rel="stylesheet" href="css/common/styleUtil.css">
+    <script src="js/login.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login page</title>
+</head>
+
+<body class="flex-center">
+<div id="form" class="flex-col-align-center">
+    <div id="tab">
+        <h1 class="tit-form focus">Login</h1>
+        <h1 class="about-us">About us</h1>
+    </div>
+    <br>
+    <form action="" method="post" style="width: 66%;">
+        <div class="username">
+            <img src="media/username-icon.png" width="20px" alt="">
+            <input type="text" id="username" name="username" placeholder="Username..." required>
+        </div>
+
+        <hr class="hr-thin">
+        <div class="password">
+            <img src="media/password-icon.png" width="20px" alt="">
+            <input type="password" id="password" name="password" placeholder="Password..." required>
+        </div>
+        <hr class="hr-thin" style="margin-bottom: 0;">
+        <br>
+        <input id="check" type="checkbox" class="check" checked>
+        <label for="check"><span class="icon"></span> Duy trì đăng nhập</label>
+
+        <a href="" style="float: right;">Quên mật khẩu?</a>
+        <div class="flex-center" style="margin-top: 20px;">
+            <input type="submit" class="button" value="Đăng nhập">
+            <input type="button" class="button" onclick="redirectTo('/signup')" value="Đăng ký">
+        </div>
+    </form>
+    <div class="product-description">
+        <h2>Ý tưởng thực hiện</h2>
+        <h4>Người Dùng Trang Web Thuê Nhà Trọ:</h4>
+        <ul>
+            <li>Người tìm kiếm phòng trọ ưng ý tại Hà Nội.</li>
+            <li>Có nhu cầu đa dạng từ sinh viên đến nhân viên văn phòng.</li>
+            <li>Mong muốn thuận tiện, thông tin chi tiết về các căn hộ và tiện ích xung quanh.</li>
+        </ul>
+
+        <h4>Sinh Viên Năm Nhất Tìm Phòng Trọ:</h4>
+        <ul>
+            <li>Sinh viên mới vào trường đại học tìm kiếm chỗ ở gần trường.</li>
+            <li>Cần giá thuê phải chăng và an ninh đảm bảo.</li>
+            <li>Quan tâm đến gần các tiện ích như quán ăn, cửa hàng tiện lợi.</li>
+        </ul>
+
+        <h4>Người Mới Di Chuyển Đến Hà Nội Vì Công Việc:</h4>
+        <ul>
+            <li>Người chuyển đến Hà Nội vì công việc mới.</li>
+            <li>Đang tìm kiếm nơi ở tiện lợi với giao thông thuận tiện.</li>
+            <li>Cần thông tin chi tiết về khu vực xung quanh và chất lượng phòng.</li>
+        </ul>
+
+        <h4>Gia Đình Nhỏ Muốn Tìm Nhà Thuê:</h4>
+        <ul>
+            <li>Gia đình nhỏ đang tìm kiếm căn nhà thuê phù hợp.</li>
+            <li>Quan tâm đến các khu vực an ninh, gần trường học và công viên.</li>
+            <li>Mong muốn thông tin chi tiết về điều kiện cho thuê và giá cả.</li>
+        </ul>
+
+        <h4>Chủ Nhà Cho Thuê Phòng:</h4>
+        <ul>
+            <li>Chủ nhà có phòng trọ cho thuê.</li>
+            <li>Quan tâm đến việc thu hút người thuê với mô tả chi tiết và hình ảnh chất lượng.</li>
+            <li>Mong muốn có phản hồi từ người thuê để cải thiện chất lượng dịch vụ.</li>
+        </ul>
+    </div>
+</div>
+</body>
+
+</html>
