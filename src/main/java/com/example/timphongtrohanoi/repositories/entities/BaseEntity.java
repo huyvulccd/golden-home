@@ -1,4 +1,4 @@
-package com.example.timphongtrohanoi.service.entity;
+package com.example.timphongtrohanoi.repositories.entities;
 
 public class BaseEntity {
     private Byte tranStatus;

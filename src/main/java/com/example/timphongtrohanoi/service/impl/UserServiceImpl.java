@@ -1,6 +1,12 @@
-package com.example.timphongtrohanoi.service.user;
+package com.example.timphongtrohanoi.service.impl;
 
+import com.example.timphongtrohanoi.repositories.entities.User;
+import com.example.timphongtrohanoi.repositories.UserRepository;
+import com.example.timphongtrohanoi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -23,5 +29,10 @@ public class UserServiceImpl implements UserService {
         // Implement JWT generation logic here
         // Return the generated token
         return "JWT_TOKEN";
+    }
+
+    @Override
+    public UserDetailsService userDetailsService() {
+        return username -> userRepository.findByUsername(username);
     }
 }
