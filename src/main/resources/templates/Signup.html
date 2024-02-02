@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head>
   <meta charset="UTF-8">
@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/common/styleUtil.css">
   <script src="js/signup.js"></script>
   <link rel="stylesheet" href="css/signup.css">
-  <title>Login page</title>
+  <title>Register page</title>
 </head>
 
 <body class="flex-center">
@@ -17,31 +17,31 @@
     <h1 class="tit-form focus">Đăng ký</h1>
   </div>
   <br>
-  <form action="" method="post" style="width: 66%;">
+  <form th:action="@{/signup}" th:method="POST" th:object="${userSignup}" style="width: 66%;">
     <div class="username">
       <img src="media/username-icon.png" width="20px" alt="">
-      <input type="text" id="username" name="username" placeholder="Username..." required>
+      <input type="text" id="username" th:field="*{username}" placeholder="Username..." required>
     </div>
 
-    <hr class="hr-thin">
+    <hr class="hr-thin" style="margin-bottom: 0;">
     <div class="password">
       <img src="media/password-icon.png" width="20px" alt="">
-      <input type="password" id="password" name="password" placeholder="Password..." required>
+      <input type="password" id="password" name="password" th:field="*{password}" placeholder="Password..." required>
     </div>
     <hr class="hr-thin" style="margin-bottom: 0;">
     <div class="password">
       <img src="media/password-icon.png" width="20px" alt="">
-      <input type="password" id="password" name="password" placeholder="Re-password..." required>
+      <input type="password" id="re-password" name="password" th:field="*{rePassword}" placeholder="Re-password..." required>
     </div>
     <hr class="hr-thin" style="margin-bottom: 0;">
     <div class="password">
       <img src="media/email-icon.png" width="20px" alt="">
-      <input type="email" id="email" name="email" placeholder="Email..." required>
+      <input type="email" id="email" name="email" th:field="*{email}" placeholder="Email..." required>
     </div>
     <hr class="hr-thin" style="margin-bottom: 0;">
     <div class="password">
       <img src="media/phone.icon.png" width="20px" alt="">
-      <input type="text" id="numberphone" name="numberphone" placeholder="Number phone..." required>
+      <input type="text" id="numberphone" name="numberphone" th:field="*{phone}" placeholder="Number phone..." required>
     </div>
     <hr class="hr-thin" style="margin-bottom: 0;">
     <div class="flex-center" style="margin-top: 20px;">

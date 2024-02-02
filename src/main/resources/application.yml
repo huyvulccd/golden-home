@@ -17,10 +17,3 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
     cache: false
-  # JPA configuration
-  # user oauth
-user:
-  oauth:
-    user:
-      username: user
-      password: 12345
