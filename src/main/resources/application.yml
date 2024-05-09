@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/tim-phong-tro-ha-noi
     username: root
-    password: "041202"
+    password: "123456"
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -17,3 +17,7 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
     cache: false
+#mybatis:
+#  config-location: classpath:mybatis-config.xml
+jwt:
+  secret: QqEUAA42INYhfmkL5bcsnpB1zHKaBZZLRrtPzWypvYWYVfVBH68e4ImOMBuWxJoa

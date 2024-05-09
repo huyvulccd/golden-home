@@ -1,4 +1,4 @@
-package com.example.timphongtrohanoi.service.dto;
+package com.example.timphongtrohanoi.domain.dto;
 
 import java.util.ArrayList;
 import java.util.List;

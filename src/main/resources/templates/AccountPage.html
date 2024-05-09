@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.thymeleaf.org ">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" th:href="@{/css/AccountPage.css}">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+  <script type="application/json" th:src="@{/js/AccountPage.js}" defer></script>
+  <title>SIGN IN | golden home</title>
+</head>
+
+<body>
+<div class="container" id="container">
+  <div class="form-container sign-up">
+    <form>
+      <h1>Create Account</h1>
+      <div class="social-icons">
+        <a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fab fa-github"></i></a>
+        <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <span>or use your email for registration</span>
+      <input type="text" placeholder="name">
+      <input type="text" placeholder="username">
+      <input type="password" placeholder="Password">
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+  <div class="form-container sign-in">
+    <form>
+      <h1>Sign In</h1>
+      <div class="social-icons">
+        <a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fab fa-github"></i></a>
+        <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <span>or use your email and password</span>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <div class="remember-me">
+        <input type="checkbox" id="remember-signup">
+        <label for="remember-signup">Remember me</label>
+      </div>
+      <a href="#">Forgot Your Password?</a>
+      <button type="submit" id="submitBtn">Sign In</button>
+    </form>
+  </div>
+  <div class="toggle-container">
+    <div class="toggle">
+      <div class="toggle-panel toggle-left">
+        <h1>Welcome Back!</h1>
+        <p>If you have account, click bellow</p>
+        <button class="hidden" id="login">Sign In</button>
+      </div>
+      <div class="toggle-panel toggle-right">
+        <h1>Hello, Friend!</h1>
+        <p>The team development project is designed for those who are in need of finding rental accommodations or buying
+          houses in Hanoi.</p>
+        <button class="hidden" id="register">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

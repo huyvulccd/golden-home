@@ -9,5 +9,4 @@ public class TimphongtrohanoiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TimphongtrohanoiApplication.class, args);
 	}
-
 }

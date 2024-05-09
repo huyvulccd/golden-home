@@ -1,4 +1,4 @@
-package com.example.timphongtrohanoi.common;
+package com.example.timphongtrohanoi.domain.common;
 
 import java.util.Date;
 

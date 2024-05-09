@@ -1,17 +1,30 @@
 package com.example.timphongtrohanoi.service;
 
-import com.example.timphongtrohanoi.controller.model.UserSignup;
-import com.example.timphongtrohanoi.repositories.entities.User;
-import com.example.timphongtrohanoi.service.dto.Validate;
+import com.example.timphongtrohanoi.domain.entities.User;
+import com.example.timphongtrohanoi.domain.model.CustomUserDetails;
+import com.example.timphongtrohanoi.domain.queries.repository.UserRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.validation.BindingResult;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-public interface UserService {
+import java.util.Optional;
 
-    User registerUser(User user);
-    String loginUser(String username, String password);
+@RequiredArgsConstructor
+public class UserService implements UserDetailsService {
 
-    UserDetailsService userDetailsService();
+    private final UserRepository userRepository;
 
-    Validate doValidateFormSubmit(UserSignup userSignup, BindingResult bindingResult);
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        Optional<User> optUser = userRepository.findByUsername(username);
+
+        if (optUser.isEmpty()) {
+            throw new UsernameNotFoundException(username);
+        }
+
+        return new CustomUserDetails(optUser.get());
+    }
+
+
 }
