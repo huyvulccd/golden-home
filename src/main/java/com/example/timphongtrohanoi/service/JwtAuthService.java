@@ -32,7 +32,7 @@ import java.util.Optional;
 @Slf4j
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 @Service
-public class AuthenticationService {
+public class JwtAuthService {
     UserRepository userRepository;
 
     @NonFinal

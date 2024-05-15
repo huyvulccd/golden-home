@@ -20,5 +20,4 @@ spring:
 #mybatis:
 #  config-location: classpath:mybatis-config.xml
 jwt:
-  secret: QqEUAA42INYhfmkL5bcsnpB1zHKaBZZLRrtPzWypvYWYVfVBH68e4ImOMBuWxJoa
-  signerKey: "fjhdhjvedrevdyvd/vuyvsdid\\vsdhvd/ejhe/1w/\nutdsvsdvd"
+  signerKey: QqEUAA42INYhfmkL5bcsnpB1zHKaBZZLRrtPzWypvYWYVfVBH68e4ImOMBuWxJoa

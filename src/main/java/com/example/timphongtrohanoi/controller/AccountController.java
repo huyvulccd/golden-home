@@ -5,7 +5,7 @@ import com.example.timphongtrohanoi.domain.model.request.RegisterRequest;
 import com.example.timphongtrohanoi.domain.model.request.SignInRequest;
 import com.example.timphongtrohanoi.domain.model.response.IntrospectResponse;
 import com.example.timphongtrohanoi.domain.model.response.SignInResponse;
-import com.example.timphongtrohanoi.service.AuthenticationService;
+import com.example.timphongtrohanoi.service.JwtAuthService;
 import com.example.timphongtrohanoi.service.UserService;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
@@ -27,7 +27,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @RequiredArgsConstructor
 public class AccountController {
 
-    AuthenticationService authenticationService;
+    JwtAuthService jwtAuthService;
 
     UserService userService;
 
@@ -44,14 +44,14 @@ public class AccountController {
 
     @PostMapping("/auth-token")
     public ResponseEntity<SignInResponse> DoLogin(@RequestBody SignInRequest request) {
-        SignInResponse isAuthentication;
+        SignInResponse response;
         try {
-            isAuthentication = authenticationService.authenticate(request);
+            response = jwtAuthService.authenticate(request);
         } catch (Exception e) {
             return new ResponseEntity<>(HttpStatusCode.valueOf(301));
         }
 
-        return new ResponseEntity<>(isAuthentication, HttpStatusCode.valueOf(200));
+        return new ResponseEntity<>(response, HttpStatusCode.valueOf(200));
     }
 
     @PostMapping("/auth-introspect")
@@ -59,7 +59,7 @@ public class AccountController {
         IntrospectResponse introspectResponse;
 
         try {
-            introspectResponse = authenticationService.introspect(introspectRequest);
+            introspectResponse = jwtAuthService.introspect(introspectRequest);
             return new ResponseEntity<>(introspectResponse, HttpStatusCode.valueOf(200));
         } catch (Exception e) {
             return new ResponseEntity<>(IntrospectResponse.builder().build(), HttpStatusCode.valueOf(200));

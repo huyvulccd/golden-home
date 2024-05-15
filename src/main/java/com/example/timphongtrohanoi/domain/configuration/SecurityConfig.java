@@ -1,6 +1,8 @@
 package com.example.timphongtrohanoi.domain.configuration;
 
-import com.nimbusds.jose.JWSAlgorithm;
+import lombok.AccessLevel;
+import lombok.experimental.FieldDefaults;
+import lombok.experimental.NonFinal;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,25 +21,31 @@ import static org.springframework.security.config.Customizer.withDefaults;
 
 @EnableWebSecurity
 @Configuration
+@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 public class SecurityConfig {
-    private final String[] endpointAuth =
+    String[] AUTH_ENDPOINTS =
             {"/auth-introspect", "/auth-token", "/registration"};
-    private final String[] endpointSource =
+    String[] SOURCE_ENDPOINTS =
             {"/css/**", "/js/**", "/fonts/**", "img/**"};
+    String[] PROTECTED_ENDPOINTS =
+            {"/newsfeed/**"};
 
+    @NonFinal
     @Value("${jwt.signerKey")
-    private String signerKey;
+    String signerKey;
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeHttpRequests(authorize ->
                         authorize
-                                .requestMatchers(HttpMethod.GET, endpointSource).permitAll()
-                                .requestMatchers(HttpMethod.POST, endpointAuth).permitAll()
+                                .requestMatchers(HttpMethod.GET, SOURCE_ENDPOINTS).permitAll()
+                                .requestMatchers(HttpMethod.POST, AUTH_ENDPOINTS).permitAll()
+                                .requestMatchers(PROTECTED_ENDPOINTS).authenticated()
                                 .anyRequest().authenticated())
                 .formLogin(formLogin -> formLogin
                         .loginPage("/").permitAll()
+//                        .loginProcessingUrl("/auth-token")
                         .permitAll())
                 .oauth2ResourceServer(oath2 -> oath2.jwt(jwtConfigurer -> jwtConfigurer.decoder(jwtDecoder())))
                 .rememberMe(withDefaults()).logout(withDefaults())
@@ -54,6 +62,4 @@ public class SecurityConfig {
                 .build();
 
     }
-
-
 }
