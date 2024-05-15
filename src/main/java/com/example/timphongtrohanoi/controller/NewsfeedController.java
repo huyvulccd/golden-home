@@ -11,7 +11,7 @@ public class NewsfeedController {
     @GetMapping("")
     public ModelAndView loadNewsfeedPage() {
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("authorize-demo/Tenant");
+        mav.setViewName("Newsfeed");
         return mav;
     }
 

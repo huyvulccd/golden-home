@@ -1,17 +1,17 @@
-package com.example.timphongtrohanoi.domain.model;
+package com.example.timphongtrohanoi.domain.model.request;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.EqualsAndHashCode;
 import lombok.experimental.FieldDefaults;
 
+@EqualsAndHashCode(callSuper = true)
 @FieldDefaults(level = AccessLevel.PRIVATE)
-@NoArgsConstructor
-@AllArgsConstructor
 @Data
-public class SignInRequest {
+@AllArgsConstructor
+public class RegisterRequest extends Request {
     String username;
     String password;
-    boolean remember;
+    String email;
 }

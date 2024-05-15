@@ -33,37 +33,82 @@ $(document).ready(function() {
             toggleContainer.css('left', '50%');
         }
     }
+    $('.sign-in #submitBtn').click(function(event){
+       event.preventDefault();
 
-     $('#submitBtn').click(function(event){
-            event.preventDefault();
+       // Lấy giá trị từ các input
+       var username = $('.sign-in #username').val();
+       var password = $('.sign-in #password').val();
+       var remember = $('.sign-in #remember-signup').is(":checked");
 
-            // Lấy giá trị từ các input
-            var username = $('#username').val();
-            var password = $('#password').val();
-            var remember = $('#remember-signup').is(":checked");
+       // Gom dữ liệu thành một đối tượng JSON
+       var data = {
+           "username": username,
+           "password": password,
+           "remember": remember
+       };
 
-            // Gom dữ liệu thành một đối tượng JSON
-            var data = {
-                "username": username,
-                "password": password,
-                "remember": remember
-            };
+       // Gửi request AJAX
+       $.ajax({
+           url: '/auth-token',
+           type: 'POST',
+           contentType: 'application/json',
+           data: JSON.stringify(data),
+           dataType : 'text',
+           success: function(response) {
+               // Xử lý kết quả trả về nếu cần
+               console.log('Request thành công: token');
+           },
+           error: function(xhr, status, error) {
+               // Xử lý lỗi nếu có
+               console.log('Lỗi trong quá trình gửi request:', error);
+           },
+           complete: function(response) {
+               // Xử lý lỗi nếu có
+           }
 
-            // Gửi request AJAX
-            $.ajax({
-                url: '/login',
-                type: 'POST',
-                contentType: 'application/json',
-                data: JSON.stringify(data),
-                success: function(response) {
-                    // Xử lý kết quả trả về nếu cần
-                    console.log('Request thành công');
-                },
-                error: function(xhr, status, error) {
-                    // Xử lý lỗi nếu có
-                    console.error('Lỗi trong quá trình gửi request:', error);
-                }
-            });
-        });
+       });
+   });
+   $('.sign-up #submitBtn').click(function(event){
+     event.preventDefault(); // Chặn xử lý submit form
+
+     // Lấy giá trị từ các input
+     var username = $('.sign-up #username').val();
+     var password = $('.sign-up #password').val();
+     var email = $('.sign-up #email').val();
+
+     // Gom dữ liệu thành một đối tượng JSON
+     var data = {
+         "username": username,
+         "password": password,
+         "email": email
+     };
+
+     // Gửi request AJAX
+     $.ajax({
+         url: '/registration',
+         type: 'POST',
+         contentType: 'application/json',
+         data: JSON.stringify(data),
+         dataType: 'text',
+         success: function(response) {
+             // Xử lý kết quả trả về nếu cần
+             container.removeClass("active");
+             document.title = "SIGN IN | project-name";
+             isSignInPage = true;
+             handleResponsive();
+             console.log(response);
+         },
+         error: function(xhr, status, error) {
+             // Xử lý lỗi nếu có
+             console.log('Lỗi trong quá trình gửi request:', error);
+         },
+         complete: function(response) { // Sự kiện hoàn tất
+             // Thực hiện bất kỳ hành động nào cần thiết sau khi request hoàn tất
+             console.log('Request hoàn tất');
+         }
+     });
+   });
+
 });
 

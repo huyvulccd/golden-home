@@ -18,7 +18,8 @@ public class Const {
         SIGNUP_RE_PASSWORD_NOT_SAME("Username đã tồn tại"),
         SIGNUP_EMAIL_INVALID("Email dùng domain [@gmail.com]"),
         SIGNUP_PHONE_NUMBER_INVALID("Số điện thoại không hợp lệ"),
-        LOGIN_USER_NOT_EXISTED("Tên đăng nhập hoặc mật khẩu sai");
+        LOGIN_USER_NOT_EXISTED("Tên đăng nhập hoặc mật khẩu sai"),
+        NOT_AUTHENTICATION("Incorrect password");
 
         String message;
     }
