@@ -1,0 +1,5 @@
+- Với người cho thuê trọ.
+Đăng ảnh trọ địa chỉ mô tả
+
+- Với người đã thuê trọ có thể bật chế độ tìm người ở ghép hay không
+

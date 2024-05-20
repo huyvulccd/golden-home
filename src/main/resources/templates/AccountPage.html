@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.thymeleaf.org ">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.thymeleaf.org ">
 
 <head>
   <meta charset="UTF-8">
@@ -33,7 +32,7 @@
     </form>
   </div>
   <div class="form-container sign-in">
-  <form>
+    <form>
       <h1>Sign In</h1>
       <div class="social-icons">
         <a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a>
@@ -61,12 +60,16 @@
       </div>
       <div class="toggle-panel toggle-right">
         <h1>Hello, Friend!</h1>
-        <p>The team development project is designed for those who are in need of finding rental accommodations or buying
+        <p>The team development project is designed for those who are in need of finding rental
+          accommodations or buying
           houses in Hanoi.</p>
         <button class="hidden" id="register">Sign Up</button>
       </div>
     </div>
   </div>
+</div>
+<div class="error-container" id="error-container">
+  <div class="error-message" id="username-error">Please enter a username</div>
 </div>
 </body>
 

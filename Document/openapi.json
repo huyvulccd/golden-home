@@ -1,0 +1,4332 @@
+{
+    "name": "Thành phố Hà Nội",
+    "code": 1,
+    "division_type": "thành phố trung ương",
+    "codename": "thanh_pho_ha_noi",
+    "phone_code": 24,
+    "districts": [
+        {
+            "name": "Quận Ba Đình",
+            "code": 1,
+            "division_type": "quận",
+            "codename": "quan_ba_dinh",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Phúc Xá",
+                    "code": 1,
+                    "division_type": "phường",
+                    "codename": "phuong_phuc_xa",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Trúc Bạch",
+                    "code": 4,
+                    "division_type": "phường",
+                    "codename": "phuong_truc_bach",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Vĩnh Phúc",
+                    "code": 6,
+                    "division_type": "phường",
+                    "codename": "phuong_vinh_phuc",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Cống Vị",
+                    "code": 7,
+                    "division_type": "phường",
+                    "codename": "phuong_cong_vi",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Liễu Giai",
+                    "code": 8,
+                    "division_type": "phường",
+                    "codename": "phuong_lieu_giai",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Nguyễn Trung Trực",
+                    "code": 10,
+                    "division_type": "phường",
+                    "codename": "phuong_nguyen_trung_truc",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Quán Thánh",
+                    "code": 13,
+                    "division_type": "phường",
+                    "codename": "phuong_quan_thanh",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Ngọc Hà",
+                    "code": 16,
+                    "division_type": "phường",
+                    "codename": "phuong_ngoc_ha",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Điện Biên",
+                    "code": 19,
+                    "division_type": "phường",
+                    "codename": "phuong_dien_bien",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Đội Cấn",
+                    "code": 22,
+                    "division_type": "phường",
+                    "codename": "phuong_doi_can",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Ngọc Khánh",
+                    "code": 25,
+                    "division_type": "phường",
+                    "codename": "phuong_ngoc_khanh",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Kim Mã",
+                    "code": 28,
+                    "division_type": "phường",
+                    "codename": "phuong_kim_ma",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Giảng Võ",
+                    "code": 31,
+                    "division_type": "phường",
+                    "codename": "phuong_giang_vo",
+                    "district_code": 1
+                },
+                {
+                    "name": "Phường Thành Công",
+                    "code": 34,
+                    "division_type": "phường",
+                    "codename": "phuong_thanh_cong",
+                    "district_code": 1
+                }
+            ]
+        },
+        {
+            "name": "Quận Hoàn Kiếm",
+            "code": 2,
+            "division_type": "quận",
+            "codename": "quan_hoan_kiem",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Phúc Tân",
+                    "code": 37,
+                    "division_type": "phường",
+                    "codename": "phuong_phuc_tan",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Đồng Xuân",
+                    "code": 40,
+                    "division_type": "phường",
+                    "codename": "phuong_dong_xuan",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Hàng Mã",
+                    "code": 43,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_ma",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Hàng Buồm",
+                    "code": 46,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_buom",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Hàng Đào",
+                    "code": 49,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_dao",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Hàng Bồ",
+                    "code": 52,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_bo",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Cửa Đông",
+                    "code": 55,
+                    "division_type": "phường",
+                    "codename": "phuong_cua_dong",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Lý Thái Tổ",
+                    "code": 58,
+                    "division_type": "phường",
+                    "codename": "phuong_ly_thai_to",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Hàng Bạc",
+                    "code": 61,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_bac",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Hàng Gai",
+                    "code": 64,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_gai",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Chương Dương",
+                    "code": 67,
+                    "division_type": "phường",
+                    "codename": "phuong_chuong_duong",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Hàng Trống",
+                    "code": 70,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_trong",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Cửa Nam",
+                    "code": 73,
+                    "division_type": "phường",
+                    "codename": "phuong_cua_nam",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Hàng Bông",
+                    "code": 76,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_bong",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Tràng Tiền",
+                    "code": 79,
+                    "division_type": "phường",
+                    "codename": "phuong_trang_tien",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Trần Hưng Đạo",
+                    "code": 82,
+                    "division_type": "phường",
+                    "codename": "phuong_tran_hung_dao",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Phan Chu Trinh",
+                    "code": 85,
+                    "division_type": "phường",
+                    "codename": "phuong_phan_chu_trinh",
+                    "district_code": 2
+                },
+                {
+                    "name": "Phường Hàng Bài",
+                    "code": 88,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_bai",
+                    "district_code": 2
+                }
+            ]
+        },
+        {
+            "name": "Quận Tây Hồ",
+            "code": 3,
+            "division_type": "quận",
+            "codename": "quan_tay_ho",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Phú Thượng",
+                    "code": 91,
+                    "division_type": "phường",
+                    "codename": "phuong_phu_thuong",
+                    "district_code": 3
+                },
+                {
+                    "name": "Phường Nhật Tân",
+                    "code": 94,
+                    "division_type": "phường",
+                    "codename": "phuong_nhat_tan",
+                    "district_code": 3
+                },
+                {
+                    "name": "Phường Tứ Liên",
+                    "code": 97,
+                    "division_type": "phường",
+                    "codename": "phuong_tu_lien",
+                    "district_code": 3
+                },
+                {
+                    "name": "Phường Quảng An",
+                    "code": 100,
+                    "division_type": "phường",
+                    "codename": "phuong_quang_an",
+                    "district_code": 3
+                },
+                {
+                    "name": "Phường Xuân La",
+                    "code": 103,
+                    "division_type": "phường",
+                    "codename": "phuong_xuan_la",
+                    "district_code": 3
+                },
+                {
+                    "name": "Phường Yên Phụ",
+                    "code": 106,
+                    "division_type": "phường",
+                    "codename": "phuong_yen_phu",
+                    "district_code": 3
+                },
+                {
+                    "name": "Phường Bưởi",
+                    "code": 109,
+                    "division_type": "phường",
+                    "codename": "phuong_buoi",
+                    "district_code": 3
+                },
+                {
+                    "name": "Phường Thụy Khuê",
+                    "code": 112,
+                    "division_type": "phường",
+                    "codename": "phuong_thuy_khue",
+                    "district_code": 3
+                }
+            ]
+        },
+        {
+            "name": "Quận Long Biên",
+            "code": 4,
+            "division_type": "quận",
+            "codename": "quan_long_bien",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Thượng Thanh",
+                    "code": 115,
+                    "division_type": "phường",
+                    "codename": "phuong_thuong_thanh",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Ngọc Thụy",
+                    "code": 118,
+                    "division_type": "phường",
+                    "codename": "phuong_ngoc_thuy",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Giang Biên",
+                    "code": 121,
+                    "division_type": "phường",
+                    "codename": "phuong_giang_bien",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Đức Giang",
+                    "code": 124,
+                    "division_type": "phường",
+                    "codename": "phuong_duc_giang",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Việt Hưng",
+                    "code": 127,
+                    "division_type": "phường",
+                    "codename": "phuong_viet_hung",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Gia Thụy",
+                    "code": 130,
+                    "division_type": "phường",
+                    "codename": "phuong_gia_thuy",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Ngọc Lâm",
+                    "code": 133,
+                    "division_type": "phường",
+                    "codename": "phuong_ngoc_lam",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Phúc Lợi",
+                    "code": 136,
+                    "division_type": "phường",
+                    "codename": "phuong_phuc_loi",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Bồ Đề",
+                    "code": 139,
+                    "division_type": "phường",
+                    "codename": "phuong_bo_de",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Sài Đồng",
+                    "code": 142,
+                    "division_type": "phường",
+                    "codename": "phuong_sai_dong",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Long Biên",
+                    "code": 145,
+                    "division_type": "phường",
+                    "codename": "phuong_long_bien",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Thạch Bàn",
+                    "code": 148,
+                    "division_type": "phường",
+                    "codename": "phuong_thach_ban",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Phúc Đồng",
+                    "code": 151,
+                    "division_type": "phường",
+                    "codename": "phuong_phuc_dong",
+                    "district_code": 4
+                },
+                {
+                    "name": "Phường Cự Khối",
+                    "code": 154,
+                    "division_type": "phường",
+                    "codename": "phuong_cu_khoi",
+                    "district_code": 4
+                }
+            ]
+        },
+        {
+            "name": "Quận Cầu Giấy",
+            "code": 5,
+            "division_type": "quận",
+            "codename": "quan_cau_giay",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Nghĩa Đô",
+                    "code": 157,
+                    "division_type": "phường",
+                    "codename": "phuong_nghia_do",
+                    "district_code": 5
+                },
+                {
+                    "name": "Phường Nghĩa Tân",
+                    "code": 160,
+                    "division_type": "phường",
+                    "codename": "phuong_nghia_tan",
+                    "district_code": 5
+                },
+                {
+                    "name": "Phường Mai Dịch",
+                    "code": 163,
+                    "division_type": "phường",
+                    "codename": "phuong_mai_dich",
+                    "district_code": 5
+                },
+                {
+                    "name": "Phường Dịch Vọng",
+                    "code": 166,
+                    "division_type": "phường",
+                    "codename": "phuong_dich_vong",
+                    "district_code": 5
+                },
+                {
+                    "name": "Phường Dịch Vọng Hậu",
+                    "code": 167,
+                    "division_type": "phường",
+                    "codename": "phuong_dich_vong_hau",
+                    "district_code": 5
+                },
+                {
+                    "name": "Phường Quan Hoa",
+                    "code": 169,
+                    "division_type": "phường",
+                    "codename": "phuong_quan_hoa",
+                    "district_code": 5
+                },
+                {
+                    "name": "Phường Yên Hoà",
+                    "code": 172,
+                    "division_type": "phường",
+                    "codename": "phuong_yen_hoa",
+                    "district_code": 5
+                },
+                {
+                    "name": "Phường Trung Hoà",
+                    "code": 175,
+                    "division_type": "phường",
+                    "codename": "phuong_trung_hoa",
+                    "district_code": 5
+                }
+            ]
+        },
+        {
+            "name": "Quận Đống Đa",
+            "code": 6,
+            "division_type": "quận",
+            "codename": "quan_dong_da",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Cát Linh",
+                    "code": 178,
+                    "division_type": "phường",
+                    "codename": "phuong_cat_linh",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Văn Miếu",
+                    "code": 181,
+                    "division_type": "phường",
+                    "codename": "phuong_van_mieu",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Quốc Tử Giám",
+                    "code": 184,
+                    "division_type": "phường",
+                    "codename": "phuong_quoc_tu_giam",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Láng Thượng",
+                    "code": 187,
+                    "division_type": "phường",
+                    "codename": "phuong_lang_thuong",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Ô Chợ Dừa",
+                    "code": 190,
+                    "division_type": "phường",
+                    "codename": "phuong_o_cho_dua",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Văn Chương",
+                    "code": 193,
+                    "division_type": "phường",
+                    "codename": "phuong_van_chuong",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Hàng Bột",
+                    "code": 196,
+                    "division_type": "phường",
+                    "codename": "phuong_hang_bot",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Láng Hạ",
+                    "code": 199,
+                    "division_type": "phường",
+                    "codename": "phuong_lang_ha",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Khâm Thiên",
+                    "code": 202,
+                    "division_type": "phường",
+                    "codename": "phuong_kham_thien",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Thổ Quan",
+                    "code": 205,
+                    "division_type": "phường",
+                    "codename": "phuong_tho_quan",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Nam Đồng",
+                    "code": 208,
+                    "division_type": "phường",
+                    "codename": "phuong_nam_dong",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Trung Phụng",
+                    "code": 211,
+                    "division_type": "phường",
+                    "codename": "phuong_trung_phung",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Quang Trung",
+                    "code": 214,
+                    "division_type": "phường",
+                    "codename": "phuong_quang_trung",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Trung Liệt",
+                    "code": 217,
+                    "division_type": "phường",
+                    "codename": "phuong_trung_liet",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Phương Liên",
+                    "code": 220,
+                    "division_type": "phường",
+                    "codename": "phuong_phuong_lien",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Thịnh Quang",
+                    "code": 223,
+                    "division_type": "phường",
+                    "codename": "phuong_thinh_quang",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Trung Tự",
+                    "code": 226,
+                    "division_type": "phường",
+                    "codename": "phuong_trung_tu",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Kim Liên",
+                    "code": 229,
+                    "division_type": "phường",
+                    "codename": "phuong_kim_lien",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Phương Mai",
+                    "code": 232,
+                    "division_type": "phường",
+                    "codename": "phuong_phuong_mai",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Ngã Tư Sở",
+                    "code": 235,
+                    "division_type": "phường",
+                    "codename": "phuong_nga_tu_so",
+                    "district_code": 6
+                },
+                {
+                    "name": "Phường Khương Thượng",
+                    "code": 238,
+                    "division_type": "phường",
+                    "codename": "phuong_khuong_thuong",
+                    "district_code": 6
+                }
+            ]
+        },
+        {
+            "name": "Quận Hai Bà Trưng",
+            "code": 7,
+            "division_type": "quận",
+            "codename": "quan_hai_ba_trung",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Nguyễn Du",
+                    "code": 241,
+                    "division_type": "phường",
+                    "codename": "phuong_nguyen_du",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Bạch Đằng",
+                    "code": 244,
+                    "division_type": "phường",
+                    "codename": "phuong_bach_dang",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Phạm Đình Hổ",
+                    "code": 247,
+                    "division_type": "phường",
+                    "codename": "phuong_pham_dinh_ho",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Lê Đại Hành",
+                    "code": 256,
+                    "division_type": "phường",
+                    "codename": "phuong_le_dai_hanh",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Đồng Nhân",
+                    "code": 259,
+                    "division_type": "phường",
+                    "codename": "phuong_dong_nhan",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Phố Huế",
+                    "code": 262,
+                    "division_type": "phường",
+                    "codename": "phuong_pho_hue",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Đống Mác",
+                    "code": 265,
+                    "division_type": "phường",
+                    "codename": "phuong_dong_mac",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Thanh Lương",
+                    "code": 268,
+                    "division_type": "phường",
+                    "codename": "phuong_thanh_luong",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Thanh Nhàn",
+                    "code": 271,
+                    "division_type": "phường",
+                    "codename": "phuong_thanh_nhan",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Cầu Dền",
+                    "code": 274,
+                    "division_type": "phường",
+                    "codename": "phuong_cau_den",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Bách Khoa",
+                    "code": 277,
+                    "division_type": "phường",
+                    "codename": "phuong_bach_khoa",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Đồng Tâm",
+                    "code": 280,
+                    "division_type": "phường",
+                    "codename": "phuong_dong_tam",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Vĩnh Tuy",
+                    "code": 283,
+                    "division_type": "phường",
+                    "codename": "phuong_vinh_tuy",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Bạch Mai",
+                    "code": 286,
+                    "division_type": "phường",
+                    "codename": "phuong_bach_mai",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Quỳnh Mai",
+                    "code": 289,
+                    "division_type": "phường",
+                    "codename": "phuong_quynh_mai",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Quỳnh Lôi",
+                    "code": 292,
+                    "division_type": "phường",
+                    "codename": "phuong_quynh_loi",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Minh Khai",
+                    "code": 295,
+                    "division_type": "phường",
+                    "codename": "phuong_minh_khai",
+                    "district_code": 7
+                },
+                {
+                    "name": "Phường Trương Định",
+                    "code": 298,
+                    "division_type": "phường",
+                    "codename": "phuong_truong_dinh",
+                    "district_code": 7
+                }
+            ]
+        },
+        {
+            "name": "Quận Hoàng Mai",
+            "code": 8,
+            "division_type": "quận",
+            "codename": "quan_hoang_mai",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Thanh Trì",
+                    "code": 301,
+                    "division_type": "phường",
+                    "codename": "phuong_thanh_tri",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Vĩnh Hưng",
+                    "code": 304,
+                    "division_type": "phường",
+                    "codename": "phuong_vinh_hung",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Định Công",
+                    "code": 307,
+                    "division_type": "phường",
+                    "codename": "phuong_dinh_cong",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Mai Động",
+                    "code": 310,
+                    "division_type": "phường",
+                    "codename": "phuong_mai_dong",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Tương Mai",
+                    "code": 313,
+                    "division_type": "phường",
+                    "codename": "phuong_tuong_mai",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Đại Kim",
+                    "code": 316,
+                    "division_type": "phường",
+                    "codename": "phuong_dai_kim",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Tân Mai",
+                    "code": 319,
+                    "division_type": "phường",
+                    "codename": "phuong_tan_mai",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Hoàng Văn Thụ",
+                    "code": 322,
+                    "division_type": "phường",
+                    "codename": "phuong_hoang_van_thu",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Giáp Bát",
+                    "code": 325,
+                    "division_type": "phường",
+                    "codename": "phuong_giap_bat",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Lĩnh Nam",
+                    "code": 328,
+                    "division_type": "phường",
+                    "codename": "phuong_linh_nam",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Thịnh Liệt",
+                    "code": 331,
+                    "division_type": "phường",
+                    "codename": "phuong_thinh_liet",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Trần Phú",
+                    "code": 334,
+                    "division_type": "phường",
+                    "codename": "phuong_tran_phu",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Hoàng Liệt",
+                    "code": 337,
+                    "division_type": "phường",
+                    "codename": "phuong_hoang_liet",
+                    "district_code": 8
+                },
+                {
+                    "name": "Phường Yên Sở",
+                    "code": 340,
+                    "division_type": "phường",
+                    "codename": "phuong_yen_so",
+                    "district_code": 8
+                }
+            ]
+        },
+        {
+            "name": "Quận Thanh Xuân",
+            "code": 9,
+            "division_type": "quận",
+            "codename": "quan_thanh_xuan",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Nhân Chính",
+                    "code": 343,
+                    "division_type": "phường",
+                    "codename": "phuong_nhan_chinh",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Thượng Đình",
+                    "code": 346,
+                    "division_type": "phường",
+                    "codename": "phuong_thuong_dinh",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Khương Trung",
+                    "code": 349,
+                    "division_type": "phường",
+                    "codename": "phuong_khuong_trung",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Khương Mai",
+                    "code": 352,
+                    "division_type": "phường",
+                    "codename": "phuong_khuong_mai",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Thanh Xuân Trung",
+                    "code": 355,
+                    "division_type": "phường",
+                    "codename": "phuong_thanh_xuan_trung",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Phương Liệt",
+                    "code": 358,
+                    "division_type": "phường",
+                    "codename": "phuong_phuong_liet",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Hạ Đình",
+                    "code": 361,
+                    "division_type": "phường",
+                    "codename": "phuong_ha_dinh",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Khương Đình",
+                    "code": 364,
+                    "division_type": "phường",
+                    "codename": "phuong_khuong_dinh",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Thanh Xuân Bắc",
+                    "code": 367,
+                    "division_type": "phường",
+                    "codename": "phuong_thanh_xuan_bac",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Thanh Xuân Nam",
+                    "code": 370,
+                    "division_type": "phường",
+                    "codename": "phuong_thanh_xuan_nam",
+                    "district_code": 9
+                },
+                {
+                    "name": "Phường Kim Giang",
+                    "code": 373,
+                    "division_type": "phường",
+                    "codename": "phuong_kim_giang",
+                    "district_code": 9
+                }
+            ]
+        },
+        {
+            "name": "Huyện Sóc Sơn",
+            "code": 16,
+            "division_type": "huyện",
+            "codename": "huyen_soc_son",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Sóc Sơn",
+                    "code": 376,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_soc_son",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Bắc Sơn",
+                    "code": 379,
+                    "division_type": "xã",
+                    "codename": "xa_bac_son",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Minh Trí",
+                    "code": 382,
+                    "division_type": "xã",
+                    "codename": "xa_minh_tri",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Hồng Kỳ",
+                    "code": 385,
+                    "division_type": "xã",
+                    "codename": "xa_hong_ky",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Nam Sơn",
+                    "code": 388,
+                    "division_type": "xã",
+                    "codename": "xa_nam_son",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Trung Giã",
+                    "code": 391,
+                    "division_type": "xã",
+                    "codename": "xa_trung_gia",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Tân Hưng",
+                    "code": 394,
+                    "division_type": "xã",
+                    "codename": "xa_tan_hung",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Minh Phú",
+                    "code": 397,
+                    "division_type": "xã",
+                    "codename": "xa_minh_phu",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Phù Linh",
+                    "code": 400,
+                    "division_type": "xã",
+                    "codename": "xa_phu_linh",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Bắc Phú",
+                    "code": 403,
+                    "division_type": "xã",
+                    "codename": "xa_bac_phu",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Tân Minh",
+                    "code": 406,
+                    "division_type": "xã",
+                    "codename": "xa_tan_minh",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Quang Tiến",
+                    "code": 409,
+                    "division_type": "xã",
+                    "codename": "xa_quang_tien",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Hiền Ninh",
+                    "code": 412,
+                    "division_type": "xã",
+                    "codename": "xa_hien_ninh",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Tân Dân",
+                    "code": 415,
+                    "division_type": "xã",
+                    "codename": "xa_tan_dan",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Tiên Dược",
+                    "code": 418,
+                    "division_type": "xã",
+                    "codename": "xa_tien_duoc",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Việt Long",
+                    "code": 421,
+                    "division_type": "xã",
+                    "codename": "xa_viet_long",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Xuân Giang",
+                    "code": 424,
+                    "division_type": "xã",
+                    "codename": "xa_xuan_giang",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Mai Đình",
+                    "code": 427,
+                    "division_type": "xã",
+                    "codename": "xa_mai_dinh",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Đức Hoà",
+                    "code": 430,
+                    "division_type": "xã",
+                    "codename": "xa_duc_hoa",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Thanh Xuân",
+                    "code": 433,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_xuan",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Đông Xuân",
+                    "code": 436,
+                    "division_type": "xã",
+                    "codename": "xa_dong_xuan",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Kim Lũ",
+                    "code": 439,
+                    "division_type": "xã",
+                    "codename": "xa_kim_lu",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Phú Cường",
+                    "code": 442,
+                    "division_type": "xã",
+                    "codename": "xa_phu_cuong",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Phú Minh",
+                    "code": 445,
+                    "division_type": "xã",
+                    "codename": "xa_phu_minh",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Phù Lỗ",
+                    "code": 448,
+                    "division_type": "xã",
+                    "codename": "xa_phu_lo",
+                    "district_code": 16
+                },
+                {
+                    "name": "Xã Xuân Thu",
+                    "code": 451,
+                    "division_type": "xã",
+                    "codename": "xa_xuan_thu",
+                    "district_code": 16
+                }
+            ]
+        },
+        {
+            "name": "Huyện Đông Anh",
+            "code": 17,
+            "division_type": "huyện",
+            "codename": "huyen_dong_anh",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Đông Anh",
+                    "code": 454,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_dong_anh",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Xuân Nộn",
+                    "code": 457,
+                    "division_type": "xã",
+                    "codename": "xa_xuan_non",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Thuỵ Lâm",
+                    "code": 460,
+                    "division_type": "xã",
+                    "codename": "xa_thuy_lam",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Bắc Hồng",
+                    "code": 463,
+                    "division_type": "xã",
+                    "codename": "xa_bac_hong",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Nguyên Khê",
+                    "code": 466,
+                    "division_type": "xã",
+                    "codename": "xa_nguyen_khe",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Nam Hồng",
+                    "code": 469,
+                    "division_type": "xã",
+                    "codename": "xa_nam_hong",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Tiên Dương",
+                    "code": 472,
+                    "division_type": "xã",
+                    "codename": "xa_tien_duong",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Vân Hà",
+                    "code": 475,
+                    "division_type": "xã",
+                    "codename": "xa_van_ha",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Uy Nỗ",
+                    "code": 478,
+                    "division_type": "xã",
+                    "codename": "xa_uy_no",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Vân Nội",
+                    "code": 481,
+                    "division_type": "xã",
+                    "codename": "xa_van_noi",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Liên Hà",
+                    "code": 484,
+                    "division_type": "xã",
+                    "codename": "xa_lien_ha",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Việt Hùng",
+                    "code": 487,
+                    "division_type": "xã",
+                    "codename": "xa_viet_hung",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Kim Nỗ",
+                    "code": 490,
+                    "division_type": "xã",
+                    "codename": "xa_kim_no",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Kim Chung",
+                    "code": 493,
+                    "division_type": "xã",
+                    "codename": "xa_kim_chung",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Dục Tú",
+                    "code": 496,
+                    "division_type": "xã",
+                    "codename": "xa_duc_tu",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Đại Mạch",
+                    "code": 499,
+                    "division_type": "xã",
+                    "codename": "xa_dai_mach",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Vĩnh Ngọc",
+                    "code": 502,
+                    "division_type": "xã",
+                    "codename": "xa_vinh_ngoc",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Cổ Loa",
+                    "code": 505,
+                    "division_type": "xã",
+                    "codename": "xa_co_loa",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Hải Bối",
+                    "code": 508,
+                    "division_type": "xã",
+                    "codename": "xa_hai_boi",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Xuân Canh",
+                    "code": 511,
+                    "division_type": "xã",
+                    "codename": "xa_xuan_canh",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Võng La",
+                    "code": 514,
+                    "division_type": "xã",
+                    "codename": "xa_vong_la",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Tàm Xá",
+                    "code": 517,
+                    "division_type": "xã",
+                    "codename": "xa_tam_xa",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Mai Lâm",
+                    "code": 520,
+                    "division_type": "xã",
+                    "codename": "xa_mai_lam",
+                    "district_code": 17
+                },
+                {
+                    "name": "Xã Đông Hội",
+                    "code": 523,
+                    "division_type": "xã",
+                    "codename": "xa_dong_hoi",
+                    "district_code": 17
+                }
+            ]
+        },
+        {
+            "name": "Huyện Gia Lâm",
+            "code": 18,
+            "division_type": "huyện",
+            "codename": "huyen_gia_lam",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Yên Viên",
+                    "code": 526,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_yen_vien",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Yên Thường",
+                    "code": 529,
+                    "division_type": "xã",
+                    "codename": "xa_yen_thuong",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Yên Viên",
+                    "code": 532,
+                    "division_type": "xã",
+                    "codename": "xa_yen_vien",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Ninh Hiệp",
+                    "code": 535,
+                    "division_type": "xã",
+                    "codename": "xa_ninh_hiep",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Đình Xuyên",
+                    "code": 538,
+                    "division_type": "xã",
+                    "codename": "xa_dinh_xuyen",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Dương Hà",
+                    "code": 541,
+                    "division_type": "xã",
+                    "codename": "xa_duong_ha",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Phù Đổng",
+                    "code": 544,
+                    "division_type": "xã",
+                    "codename": "xa_phu_dong",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Trung Mầu",
+                    "code": 547,
+                    "division_type": "xã",
+                    "codename": "xa_trung_mau",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Lệ Chi",
+                    "code": 550,
+                    "division_type": "xã",
+                    "codename": "xa_le_chi",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Cổ Bi",
+                    "code": 553,
+                    "division_type": "xã",
+                    "codename": "xa_co_bi",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Đặng Xá",
+                    "code": 556,
+                    "division_type": "xã",
+                    "codename": "xa_dang_xa",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Phú Thị",
+                    "code": 559,
+                    "division_type": "xã",
+                    "codename": "xa_phu_thi",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Kim Sơn",
+                    "code": 562,
+                    "division_type": "xã",
+                    "codename": "xa_kim_son",
+                    "district_code": 18
+                },
+                {
+                    "name": "Thị trấn Trâu Quỳ",
+                    "code": 565,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_trau_quy",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Dương Quang",
+                    "code": 568,
+                    "division_type": "xã",
+                    "codename": "xa_duong_quang",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Dương Xá",
+                    "code": 571,
+                    "division_type": "xã",
+                    "codename": "xa_duong_xa",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Đông Dư",
+                    "code": 574,
+                    "division_type": "xã",
+                    "codename": "xa_dong_du",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Đa Tốn",
+                    "code": 577,
+                    "division_type": "xã",
+                    "codename": "xa_da_ton",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Kiêu Kỵ",
+                    "code": 580,
+                    "division_type": "xã",
+                    "codename": "xa_kieu_ky",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Bát Tràng",
+                    "code": 583,
+                    "division_type": "xã",
+                    "codename": "xa_bat_trang",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Kim Lan",
+                    "code": 586,
+                    "division_type": "xã",
+                    "codename": "xa_kim_lan",
+                    "district_code": 18
+                },
+                {
+                    "name": "Xã Văn Đức",
+                    "code": 589,
+                    "division_type": "xã",
+                    "codename": "xa_van_duc",
+                    "district_code": 18
+                }
+            ]
+        },
+        {
+            "name": "Quận Nam Từ Liêm",
+            "code": 19,
+            "division_type": "quận",
+            "codename": "quan_nam_tu_liem",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Cầu Diễn",
+                    "code": 592,
+                    "division_type": "phường",
+                    "codename": "phuong_cau_dien",
+                    "district_code": 19
+                },
+                {
+                    "name": "Phường Xuân Phương",
+                    "code": 622,
+                    "division_type": "phường",
+                    "codename": "phuong_xuan_phuong",
+                    "district_code": 19
+                },
+                {
+                    "name": "Phường Phương Canh",
+                    "code": 623,
+                    "division_type": "phường",
+                    "codename": "phuong_phuong_canh",
+                    "district_code": 19
+                },
+                {
+                    "name": "Phường Mỹ Đình 1",
+                    "code": 625,
+                    "division_type": "phường",
+                    "codename": "phuong_my_dinh_1",
+                    "district_code": 19
+                },
+                {
+                    "name": "Phường Mỹ Đình 2",
+                    "code": 626,
+                    "division_type": "phường",
+                    "codename": "phuong_my_dinh_2",
+                    "district_code": 19
+                },
+                {
+                    "name": "Phường Tây Mỗ",
+                    "code": 628,
+                    "division_type": "phường",
+                    "codename": "phuong_tay_mo",
+                    "district_code": 19
+                },
+                {
+                    "name": "Phường Mễ Trì",
+                    "code": 631,
+                    "division_type": "phường",
+                    "codename": "phuong_me_tri",
+                    "district_code": 19
+                },
+                {
+                    "name": "Phường Phú Đô",
+                    "code": 632,
+                    "division_type": "phường",
+                    "codename": "phuong_phu_do",
+                    "district_code": 19
+                },
+                {
+                    "name": "Phường Đại Mỗ",
+                    "code": 634,
+                    "division_type": "phường",
+                    "codename": "phuong_dai_mo",
+                    "district_code": 19
+                },
+                {
+                    "name": "Phường Trung Văn",
+                    "code": 637,
+                    "division_type": "phường",
+                    "codename": "phuong_trung_van",
+                    "district_code": 19
+                }
+            ]
+        },
+        {
+            "name": "Huyện Thanh Trì",
+            "code": 20,
+            "division_type": "huyện",
+            "codename": "huyen_thanh_tri",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Văn Điển",
+                    "code": 640,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_van_dien",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Tân Triều",
+                    "code": 643,
+                    "division_type": "xã",
+                    "codename": "xa_tan_trieu",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Thanh Liệt",
+                    "code": 646,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_liet",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Tả Thanh Oai",
+                    "code": 649,
+                    "division_type": "xã",
+                    "codename": "xa_ta_thanh_oai",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Hữu Hoà",
+                    "code": 652,
+                    "division_type": "xã",
+                    "codename": "xa_huu_hoa",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Tam Hiệp",
+                    "code": 655,
+                    "division_type": "xã",
+                    "codename": "xa_tam_hiep",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Tứ Hiệp",
+                    "code": 658,
+                    "division_type": "xã",
+                    "codename": "xa_tu_hiep",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Yên Mỹ",
+                    "code": 661,
+                    "division_type": "xã",
+                    "codename": "xa_yen_my",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Vĩnh Quỳnh",
+                    "code": 664,
+                    "division_type": "xã",
+                    "codename": "xa_vinh_quynh",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Ngũ Hiệp",
+                    "code": 667,
+                    "division_type": "xã",
+                    "codename": "xa_ngu_hiep",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Duyên Hà",
+                    "code": 670,
+                    "division_type": "xã",
+                    "codename": "xa_duyen_ha",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Ngọc Hồi",
+                    "code": 673,
+                    "division_type": "xã",
+                    "codename": "xa_ngoc_hoi",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Vạn Phúc",
+                    "code": 676,
+                    "division_type": "xã",
+                    "codename": "xa_van_phuc",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Đại áng",
+                    "code": 679,
+                    "division_type": "xã",
+                    "codename": "xa_dai_ang",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Liên Ninh",
+                    "code": 682,
+                    "division_type": "xã",
+                    "codename": "xa_lien_ninh",
+                    "district_code": 20
+                },
+                {
+                    "name": "Xã Đông Mỹ",
+                    "code": 685,
+                    "division_type": "xã",
+                    "codename": "xa_dong_my",
+                    "district_code": 20
+                }
+            ]
+        },
+        {
+            "name": "Quận Bắc Từ Liêm",
+            "code": 21,
+            "division_type": "quận",
+            "codename": "quan_bac_tu_liem",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Thượng Cát",
+                    "code": 595,
+                    "division_type": "phường",
+                    "codename": "phuong_thuong_cat",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Liên Mạc",
+                    "code": 598,
+                    "division_type": "phường",
+                    "codename": "phuong_lien_mac",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Đông Ngạc",
+                    "code": 601,
+                    "division_type": "phường",
+                    "codename": "phuong_dong_ngac",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Đức Thắng",
+                    "code": 602,
+                    "division_type": "phường",
+                    "codename": "phuong_duc_thang",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Thụy Phương",
+                    "code": 604,
+                    "division_type": "phường",
+                    "codename": "phuong_thuy_phuong",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Tây Tựu",
+                    "code": 607,
+                    "division_type": "phường",
+                    "codename": "phuong_tay_tuu",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Xuân Đỉnh",
+                    "code": 610,
+                    "division_type": "phường",
+                    "codename": "phuong_xuan_dinh",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Xuân Tảo",
+                    "code": 611,
+                    "division_type": "phường",
+                    "codename": "phuong_xuan_tao",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Minh Khai",
+                    "code": 613,
+                    "division_type": "phường",
+                    "codename": "phuong_minh_khai",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Cổ Nhuế 1",
+                    "code": 616,
+                    "division_type": "phường",
+                    "codename": "phuong_co_nhue_1",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Cổ Nhuế 2",
+                    "code": 617,
+                    "division_type": "phường",
+                    "codename": "phuong_co_nhue_2",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Phú Diễn",
+                    "code": 619,
+                    "division_type": "phường",
+                    "codename": "phuong_phu_dien",
+                    "district_code": 21
+                },
+                {
+                    "name": "Phường Phúc Diễn",
+                    "code": 620,
+                    "division_type": "phường",
+                    "codename": "phuong_phuc_dien",
+                    "district_code": 21
+                }
+            ]
+        },
+        {
+            "name": "Huyện Mê Linh",
+            "code": 250,
+            "division_type": "huyện",
+            "codename": "huyen_me_linh",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Chi Đông",
+                    "code": 8973,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_chi_dong",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Đại Thịnh",
+                    "code": 8974,
+                    "division_type": "xã",
+                    "codename": "xa_dai_thinh",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Kim Hoa",
+                    "code": 8977,
+                    "division_type": "xã",
+                    "codename": "xa_kim_hoa",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Thạch Đà",
+                    "code": 8980,
+                    "division_type": "xã",
+                    "codename": "xa_thach_da",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Tiến Thắng",
+                    "code": 8983,
+                    "division_type": "xã",
+                    "codename": "xa_tien_thang",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Tự Lập",
+                    "code": 8986,
+                    "division_type": "xã",
+                    "codename": "xa_tu_lap",
+                    "district_code": 250
+                },
+                {
+                    "name": "Thị trấn Quang Minh",
+                    "code": 8989,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_quang_minh",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Thanh Lâm",
+                    "code": 8992,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_lam",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Tam Đồng",
+                    "code": 8995,
+                    "division_type": "xã",
+                    "codename": "xa_tam_dong",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Liên Mạc",
+                    "code": 8998,
+                    "division_type": "xã",
+                    "codename": "xa_lien_mac",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Vạn Yên",
+                    "code": 9001,
+                    "division_type": "xã",
+                    "codename": "xa_van_yen",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Chu Phan",
+                    "code": 9004,
+                    "division_type": "xã",
+                    "codename": "xa_chu_phan",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Tiến Thịnh",
+                    "code": 9007,
+                    "division_type": "xã",
+                    "codename": "xa_tien_thinh",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Mê Linh",
+                    "code": 9010,
+                    "division_type": "xã",
+                    "codename": "xa_me_linh",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Văn Khê",
+                    "code": 9013,
+                    "division_type": "xã",
+                    "codename": "xa_van_khe",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Hoàng Kim",
+                    "code": 9016,
+                    "division_type": "xã",
+                    "codename": "xa_hoang_kim",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Tiền Phong",
+                    "code": 9019,
+                    "division_type": "xã",
+                    "codename": "xa_tien_phong",
+                    "district_code": 250
+                },
+                {
+                    "name": "Xã Tráng Việt",
+                    "code": 9022,
+                    "division_type": "xã",
+                    "codename": "xa_trang_viet",
+                    "district_code": 250
+                }
+            ]
+        },
+        {
+            "name": "Quận Hà Đông",
+            "code": 268,
+            "division_type": "quận",
+            "codename": "quan_ha_dong",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Nguyễn Trãi",
+                    "code": 9538,
+                    "division_type": "phường",
+                    "codename": "phuong_nguyen_trai",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Mộ Lao",
+                    "code": 9541,
+                    "division_type": "phường",
+                    "codename": "phuong_mo_lao",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Văn Quán",
+                    "code": 9542,
+                    "division_type": "phường",
+                    "codename": "phuong_van_quan",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Vạn Phúc",
+                    "code": 9544,
+                    "division_type": "phường",
+                    "codename": "phuong_van_phuc",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Yết Kiêu",
+                    "code": 9547,
+                    "division_type": "phường",
+                    "codename": "phuong_yet_kieu",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Quang Trung",
+                    "code": 9550,
+                    "division_type": "phường",
+                    "codename": "phuong_quang_trung",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường La Khê",
+                    "code": 9551,
+                    "division_type": "phường",
+                    "codename": "phuong_la_khe",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Phú La",
+                    "code": 9552,
+                    "division_type": "phường",
+                    "codename": "phuong_phu_la",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Phúc La",
+                    "code": 9553,
+                    "division_type": "phường",
+                    "codename": "phuong_phuc_la",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Hà Cầu",
+                    "code": 9556,
+                    "division_type": "phường",
+                    "codename": "phuong_ha_cau",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Yên Nghĩa",
+                    "code": 9562,
+                    "division_type": "phường",
+                    "codename": "phuong_yen_nghia",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Kiến Hưng",
+                    "code": 9565,
+                    "division_type": "phường",
+                    "codename": "phuong_kien_hung",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Phú Lãm",
+                    "code": 9568,
+                    "division_type": "phường",
+                    "codename": "phuong_phu_lam",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Phú Lương",
+                    "code": 9571,
+                    "division_type": "phường",
+                    "codename": "phuong_phu_luong",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Dương Nội",
+                    "code": 9886,
+                    "division_type": "phường",
+                    "codename": "phuong_duong_noi",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Đồng Mai",
+                    "code": 10117,
+                    "division_type": "phường",
+                    "codename": "phuong_dong_mai",
+                    "district_code": 268
+                },
+                {
+                    "name": "Phường Biên Giang",
+                    "code": 10123,
+                    "division_type": "phường",
+                    "codename": "phuong_bien_giang",
+                    "district_code": 268
+                }
+            ]
+        },
+        {
+            "name": "Thị xã Sơn Tây",
+            "code": 269,
+            "division_type": "thị xã",
+            "codename": "thi_xa_son_tay",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Phường Lê Lợi",
+                    "code": 9574,
+                    "division_type": "phường",
+                    "codename": "phuong_le_loi",
+                    "district_code": 269
+                },
+                {
+                    "name": "Phường Phú Thịnh",
+                    "code": 9577,
+                    "division_type": "phường",
+                    "codename": "phuong_phu_thinh",
+                    "district_code": 269
+                },
+                {
+                    "name": "Phường Ngô Quyền",
+                    "code": 9580,
+                    "division_type": "phường",
+                    "codename": "phuong_ngo_quyen",
+                    "district_code": 269
+                },
+                {
+                    "name": "Phường Quang Trung",
+                    "code": 9583,
+                    "division_type": "phường",
+                    "codename": "phuong_quang_trung",
+                    "district_code": 269
+                },
+                {
+                    "name": "Phường Sơn Lộc",
+                    "code": 9586,
+                    "division_type": "phường",
+                    "codename": "phuong_son_loc",
+                    "district_code": 269
+                },
+                {
+                    "name": "Phường Xuân Khanh",
+                    "code": 9589,
+                    "division_type": "phường",
+                    "codename": "phuong_xuan_khanh",
+                    "district_code": 269
+                },
+                {
+                    "name": "Xã Đường Lâm",
+                    "code": 9592,
+                    "division_type": "xã",
+                    "codename": "xa_duong_lam",
+                    "district_code": 269
+                },
+                {
+                    "name": "Phường Viên Sơn",
+                    "code": 9595,
+                    "division_type": "phường",
+                    "codename": "phuong_vien_son",
+                    "district_code": 269
+                },
+                {
+                    "name": "Xã Xuân Sơn",
+                    "code": 9598,
+                    "division_type": "xã",
+                    "codename": "xa_xuan_son",
+                    "district_code": 269
+                },
+                {
+                    "name": "Phường Trung Hưng",
+                    "code": 9601,
+                    "division_type": "phường",
+                    "codename": "phuong_trung_hung",
+                    "district_code": 269
+                },
+                {
+                    "name": "Xã Thanh Mỹ",
+                    "code": 9604,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_my",
+                    "district_code": 269
+                },
+                {
+                    "name": "Phường Trung Sơn Trầm",
+                    "code": 9607,
+                    "division_type": "phường",
+                    "codename": "phuong_trung_son_tram",
+                    "district_code": 269
+                },
+                {
+                    "name": "Xã Kim Sơn",
+                    "code": 9610,
+                    "division_type": "xã",
+                    "codename": "xa_kim_son",
+                    "district_code": 269
+                },
+                {
+                    "name": "Xã Sơn Đông",
+                    "code": 9613,
+                    "division_type": "xã",
+                    "codename": "xa_son_dong",
+                    "district_code": 269
+                },
+                {
+                    "name": "Xã Cổ Đông",
+                    "code": 9616,
+                    "division_type": "xã",
+                    "codename": "xa_co_dong",
+                    "district_code": 269
+                }
+            ]
+        },
+        {
+            "name": "Huyện Ba Vì",
+            "code": 271,
+            "division_type": "huyện",
+            "codename": "huyen_ba_vi",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Tây Đằng",
+                    "code": 9619,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_tay_dang",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Phú Cường",
+                    "code": 9625,
+                    "division_type": "xã",
+                    "codename": "xa_phu_cuong",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Cổ Đô",
+                    "code": 9628,
+                    "division_type": "xã",
+                    "codename": "xa_co_do",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Tản Hồng",
+                    "code": 9631,
+                    "division_type": "xã",
+                    "codename": "xa_tan_hong",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Vạn Thắng",
+                    "code": 9634,
+                    "division_type": "xã",
+                    "codename": "xa_van_thang",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Châu Sơn",
+                    "code": 9637,
+                    "division_type": "xã",
+                    "codename": "xa_chau_son",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Phong Vân",
+                    "code": 9640,
+                    "division_type": "xã",
+                    "codename": "xa_phong_van",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Phú Đông",
+                    "code": 9643,
+                    "division_type": "xã",
+                    "codename": "xa_phu_dong",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Phú Phương",
+                    "code": 9646,
+                    "division_type": "xã",
+                    "codename": "xa_phu_phuong",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Phú Châu",
+                    "code": 9649,
+                    "division_type": "xã",
+                    "codename": "xa_phu_chau",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Thái Hòa",
+                    "code": 9652,
+                    "division_type": "xã",
+                    "codename": "xa_thai_hoa",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Đồng Thái",
+                    "code": 9655,
+                    "division_type": "xã",
+                    "codename": "xa_dong_thai",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Phú Sơn",
+                    "code": 9658,
+                    "division_type": "xã",
+                    "codename": "xa_phu_son",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Minh Châu",
+                    "code": 9661,
+                    "division_type": "xã",
+                    "codename": "xa_minh_chau",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Vật Lại",
+                    "code": 9664,
+                    "division_type": "xã",
+                    "codename": "xa_vat_lai",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Chu Minh",
+                    "code": 9667,
+                    "division_type": "xã",
+                    "codename": "xa_chu_minh",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Tòng Bạt",
+                    "code": 9670,
+                    "division_type": "xã",
+                    "codename": "xa_tong_bat",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Cẩm Lĩnh",
+                    "code": 9673,
+                    "division_type": "xã",
+                    "codename": "xa_cam_linh",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Sơn Đà",
+                    "code": 9676,
+                    "division_type": "xã",
+                    "codename": "xa_son_da",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Đông Quang",
+                    "code": 9679,
+                    "division_type": "xã",
+                    "codename": "xa_dong_quang",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Tiên Phong",
+                    "code": 9682,
+                    "division_type": "xã",
+                    "codename": "xa_tien_phong",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Thụy An",
+                    "code": 9685,
+                    "division_type": "xã",
+                    "codename": "xa_thuy_an",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Cam Thượng",
+                    "code": 9688,
+                    "division_type": "xã",
+                    "codename": "xa_cam_thuong",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Thuần Mỹ",
+                    "code": 9691,
+                    "division_type": "xã",
+                    "codename": "xa_thuan_my",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Tản Lĩnh",
+                    "code": 9694,
+                    "division_type": "xã",
+                    "codename": "xa_tan_linh",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Ba Trại",
+                    "code": 9697,
+                    "division_type": "xã",
+                    "codename": "xa_ba_trai",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Minh Quang",
+                    "code": 9700,
+                    "division_type": "xã",
+                    "codename": "xa_minh_quang",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Ba Vì",
+                    "code": 9703,
+                    "division_type": "xã",
+                    "codename": "xa_ba_vi",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Vân Hòa",
+                    "code": 9706,
+                    "division_type": "xã",
+                    "codename": "xa_van_hoa",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Yên Bài",
+                    "code": 9709,
+                    "division_type": "xã",
+                    "codename": "xa_yen_bai",
+                    "district_code": 271
+                },
+                {
+                    "name": "Xã Khánh Thượng",
+                    "code": 9712,
+                    "division_type": "xã",
+                    "codename": "xa_khanh_thuong",
+                    "district_code": 271
+                }
+            ]
+        },
+        {
+            "name": "Huyện Phúc Thọ",
+            "code": 272,
+            "division_type": "huyện",
+            "codename": "huyen_phuc_tho",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Phúc Thọ",
+                    "code": 9715,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_phuc_tho",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Vân Hà",
+                    "code": 9718,
+                    "division_type": "xã",
+                    "codename": "xa_van_ha",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Vân Phúc",
+                    "code": 9721,
+                    "division_type": "xã",
+                    "codename": "xa_van_phuc",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Vân Nam",
+                    "code": 9724,
+                    "division_type": "xã",
+                    "codename": "xa_van_nam",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Xuân Đình",
+                    "code": 9727,
+                    "division_type": "xã",
+                    "codename": "xa_xuan_dinh",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Sen Phương",
+                    "code": 9733,
+                    "division_type": "xã",
+                    "codename": "xa_sen_phuong",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Võng Xuyên",
+                    "code": 9739,
+                    "division_type": "xã",
+                    "codename": "xa_vong_xuyen",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Thọ Lộc",
+                    "code": 9742,
+                    "division_type": "xã",
+                    "codename": "xa_tho_loc",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Long Xuyên",
+                    "code": 9745,
+                    "division_type": "xã",
+                    "codename": "xa_long_xuyen",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Thượng Cốc",
+                    "code": 9748,
+                    "division_type": "xã",
+                    "codename": "xa_thuong_coc",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Hát Môn",
+                    "code": 9751,
+                    "division_type": "xã",
+                    "codename": "xa_hat_mon",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Tích Giang",
+                    "code": 9754,
+                    "division_type": "xã",
+                    "codename": "xa_tich_giang",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Thanh Đa",
+                    "code": 9757,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_da",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Trạch Mỹ Lộc",
+                    "code": 9760,
+                    "division_type": "xã",
+                    "codename": "xa_trach_my_loc",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Phúc Hòa",
+                    "code": 9763,
+                    "division_type": "xã",
+                    "codename": "xa_phuc_hoa",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Ngọc Tảo",
+                    "code": 9766,
+                    "division_type": "xã",
+                    "codename": "xa_ngoc_tao",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Phụng Thượng",
+                    "code": 9769,
+                    "division_type": "xã",
+                    "codename": "xa_phung_thuong",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Tam Thuấn",
+                    "code": 9772,
+                    "division_type": "xã",
+                    "codename": "xa_tam_thuan",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Tam Hiệp",
+                    "code": 9775,
+                    "division_type": "xã",
+                    "codename": "xa_tam_hiep",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Hiệp Thuận",
+                    "code": 9778,
+                    "division_type": "xã",
+                    "codename": "xa_hiep_thuan",
+                    "district_code": 272
+                },
+                {
+                    "name": "Xã Liên Hiệp",
+                    "code": 9781,
+                    "division_type": "xã",
+                    "codename": "xa_lien_hiep",
+                    "district_code": 272
+                }
+            ]
+        },
+        {
+            "name": "Huyện Đan Phượng",
+            "code": 273,
+            "division_type": "huyện",
+            "codename": "huyen_dan_phuong",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Phùng",
+                    "code": 9784,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_phung",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Trung Châu",
+                    "code": 9787,
+                    "division_type": "xã",
+                    "codename": "xa_trung_chau",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Thọ An",
+                    "code": 9790,
+                    "division_type": "xã",
+                    "codename": "xa_tho_an",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Thọ Xuân",
+                    "code": 9793,
+                    "division_type": "xã",
+                    "codename": "xa_tho_xuan",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Hồng Hà",
+                    "code": 9796,
+                    "division_type": "xã",
+                    "codename": "xa_hong_ha",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Liên Hồng",
+                    "code": 9799,
+                    "division_type": "xã",
+                    "codename": "xa_lien_hong",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Liên Hà",
+                    "code": 9802,
+                    "division_type": "xã",
+                    "codename": "xa_lien_ha",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Hạ Mỗ",
+                    "code": 9805,
+                    "division_type": "xã",
+                    "codename": "xa_ha_mo",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Liên Trung",
+                    "code": 9808,
+                    "division_type": "xã",
+                    "codename": "xa_lien_trung",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Phương Đình",
+                    "code": 9811,
+                    "division_type": "xã",
+                    "codename": "xa_phuong_dinh",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Thượng Mỗ",
+                    "code": 9814,
+                    "division_type": "xã",
+                    "codename": "xa_thuong_mo",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Tân Hội",
+                    "code": 9817,
+                    "division_type": "xã",
+                    "codename": "xa_tan_hoi",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Tân Lập",
+                    "code": 9820,
+                    "division_type": "xã",
+                    "codename": "xa_tan_lap",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Đan Phượng",
+                    "code": 9823,
+                    "division_type": "xã",
+                    "codename": "xa_dan_phuong",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Đồng Tháp",
+                    "code": 9826,
+                    "division_type": "xã",
+                    "codename": "xa_dong_thap",
+                    "district_code": 273
+                },
+                {
+                    "name": "Xã Song Phượng",
+                    "code": 9829,
+                    "division_type": "xã",
+                    "codename": "xa_song_phuong",
+                    "district_code": 273
+                }
+            ]
+        },
+        {
+            "name": "Huyện Hoài Đức",
+            "code": 274,
+            "division_type": "huyện",
+            "codename": "huyen_hoai_duc",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Trạm Trôi",
+                    "code": 9832,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_tram_troi",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Đức Thượng",
+                    "code": 9835,
+                    "division_type": "xã",
+                    "codename": "xa_duc_thuong",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Minh Khai",
+                    "code": 9838,
+                    "division_type": "xã",
+                    "codename": "xa_minh_khai",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Dương Liễu",
+                    "code": 9841,
+                    "division_type": "xã",
+                    "codename": "xa_duong_lieu",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Di Trạch",
+                    "code": 9844,
+                    "division_type": "xã",
+                    "codename": "xa_di_trach",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Đức Giang",
+                    "code": 9847,
+                    "division_type": "xã",
+                    "codename": "xa_duc_giang",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Cát Quế",
+                    "code": 9850,
+                    "division_type": "xã",
+                    "codename": "xa_cat_que",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Kim Chung",
+                    "code": 9853,
+                    "division_type": "xã",
+                    "codename": "xa_kim_chung",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Yên Sở",
+                    "code": 9856,
+                    "division_type": "xã",
+                    "codename": "xa_yen_so",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Sơn Đồng",
+                    "code": 9859,
+                    "division_type": "xã",
+                    "codename": "xa_son_dong",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Vân Canh",
+                    "code": 9862,
+                    "division_type": "xã",
+                    "codename": "xa_van_canh",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Đắc Sở",
+                    "code": 9865,
+                    "division_type": "xã",
+                    "codename": "xa_dac_so",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Lại Yên",
+                    "code": 9868,
+                    "division_type": "xã",
+                    "codename": "xa_lai_yen",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Tiền Yên",
+                    "code": 9871,
+                    "division_type": "xã",
+                    "codename": "xa_tien_yen",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Song Phương",
+                    "code": 9874,
+                    "division_type": "xã",
+                    "codename": "xa_song_phuong",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã An Khánh",
+                    "code": 9877,
+                    "division_type": "xã",
+                    "codename": "xa_an_khanh",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã An Thượng",
+                    "code": 9880,
+                    "division_type": "xã",
+                    "codename": "xa_an_thuong",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Vân Côn",
+                    "code": 9883,
+                    "division_type": "xã",
+                    "codename": "xa_van_con",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã La Phù",
+                    "code": 9889,
+                    "division_type": "xã",
+                    "codename": "xa_la_phu",
+                    "district_code": 274
+                },
+                {
+                    "name": "Xã Đông La",
+                    "code": 9892,
+                    "division_type": "xã",
+                    "codename": "xa_dong_la",
+                    "district_code": 274
+                }
+            ]
+        },
+        {
+            "name": "Huyện Quốc Oai",
+            "code": 275,
+            "division_type": "huyện",
+            "codename": "huyen_quoc_oai",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Xã Đông Xuân",
+                    "code": 4939,
+                    "division_type": "xã",
+                    "codename": "xa_dong_xuan",
+                    "district_code": 275
+                },
+                {
+                    "name": "Thị trấn Quốc Oai",
+                    "code": 9895,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_quoc_oai",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Sài Sơn",
+                    "code": 9898,
+                    "division_type": "xã",
+                    "codename": "xa_sai_son",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Phượng Cách",
+                    "code": 9901,
+                    "division_type": "xã",
+                    "codename": "xa_phuong_cach",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Yên Sơn",
+                    "code": 9904,
+                    "division_type": "xã",
+                    "codename": "xa_yen_son",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Ngọc Liệp",
+                    "code": 9907,
+                    "division_type": "xã",
+                    "codename": "xa_ngoc_liep",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Ngọc Mỹ",
+                    "code": 9910,
+                    "division_type": "xã",
+                    "codename": "xa_ngoc_my",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Liệp Tuyết",
+                    "code": 9913,
+                    "division_type": "xã",
+                    "codename": "xa_liep_tuyet",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Thạch Thán",
+                    "code": 9916,
+                    "division_type": "xã",
+                    "codename": "xa_thach_than",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Đồng Quang",
+                    "code": 9919,
+                    "division_type": "xã",
+                    "codename": "xa_dong_quang",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Phú Cát",
+                    "code": 9922,
+                    "division_type": "xã",
+                    "codename": "xa_phu_cat",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Tuyết Nghĩa",
+                    "code": 9925,
+                    "division_type": "xã",
+                    "codename": "xa_tuyet_nghia",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Nghĩa Hương",
+                    "code": 9928,
+                    "division_type": "xã",
+                    "codename": "xa_nghia_huong",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Cộng Hòa",
+                    "code": 9931,
+                    "division_type": "xã",
+                    "codename": "xa_cong_hoa",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Tân Phú",
+                    "code": 9934,
+                    "division_type": "xã",
+                    "codename": "xa_tan_phu",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Đại Thành",
+                    "code": 9937,
+                    "division_type": "xã",
+                    "codename": "xa_dai_thanh",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Phú Mãn",
+                    "code": 9940,
+                    "division_type": "xã",
+                    "codename": "xa_phu_man",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Cấn Hữu",
+                    "code": 9943,
+                    "division_type": "xã",
+                    "codename": "xa_can_huu",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Tân Hòa",
+                    "code": 9946,
+                    "division_type": "xã",
+                    "codename": "xa_tan_hoa",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Hòa Thạch",
+                    "code": 9949,
+                    "division_type": "xã",
+                    "codename": "xa_hoa_thach",
+                    "district_code": 275
+                },
+                {
+                    "name": "Xã Đông Yên",
+                    "code": 9952,
+                    "division_type": "xã",
+                    "codename": "xa_dong_yen",
+                    "district_code": 275
+                }
+            ]
+        },
+        {
+            "name": "Huyện Thạch Thất",
+            "code": 276,
+            "division_type": "huyện",
+            "codename": "huyen_thach_that",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Xã Yên Trung",
+                    "code": 4927,
+                    "division_type": "xã",
+                    "codename": "xa_yen_trung",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Yên Bình",
+                    "code": 4930,
+                    "division_type": "xã",
+                    "codename": "xa_yen_binh",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Tiến Xuân",
+                    "code": 4936,
+                    "division_type": "xã",
+                    "codename": "xa_tien_xuan",
+                    "district_code": 276
+                },
+                {
+                    "name": "Thị trấn Liên Quan",
+                    "code": 9955,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_lien_quan",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Đại Đồng",
+                    "code": 9958,
+                    "division_type": "xã",
+                    "codename": "xa_dai_dong",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Cẩm Yên",
+                    "code": 9961,
+                    "division_type": "xã",
+                    "codename": "xa_cam_yen",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Lại Thượng",
+                    "code": 9964,
+                    "division_type": "xã",
+                    "codename": "xa_lai_thuong",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Phú Kim",
+                    "code": 9967,
+                    "division_type": "xã",
+                    "codename": "xa_phu_kim",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Hương Ngải",
+                    "code": 9970,
+                    "division_type": "xã",
+                    "codename": "xa_huong_ngai",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Canh Nậu",
+                    "code": 9973,
+                    "division_type": "xã",
+                    "codename": "xa_canh_nau",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Kim Quan",
+                    "code": 9976,
+                    "division_type": "xã",
+                    "codename": "xa_kim_quan",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Dị Nậu",
+                    "code": 9979,
+                    "division_type": "xã",
+                    "codename": "xa_di_nau",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Bình Yên",
+                    "code": 9982,
+                    "division_type": "xã",
+                    "codename": "xa_binh_yen",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Chàng Sơn",
+                    "code": 9985,
+                    "division_type": "xã",
+                    "codename": "xa_chang_son",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Thạch Hoà",
+                    "code": 9988,
+                    "division_type": "xã",
+                    "codename": "xa_thach_hoa",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Cần Kiệm",
+                    "code": 9991,
+                    "division_type": "xã",
+                    "codename": "xa_can_kiem",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Hữu Bằng",
+                    "code": 9994,
+                    "division_type": "xã",
+                    "codename": "xa_huu_bang",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Phùng Xá",
+                    "code": 9997,
+                    "division_type": "xã",
+                    "codename": "xa_phung_xa",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Tân Xã",
+                    "code": 10000,
+                    "division_type": "xã",
+                    "codename": "xa_tan_xa",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Thạch Xá",
+                    "code": 10003,
+                    "division_type": "xã",
+                    "codename": "xa_thach_xa",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Bình Phú",
+                    "code": 10006,
+                    "division_type": "xã",
+                    "codename": "xa_binh_phu",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Hạ Bằng",
+                    "code": 10009,
+                    "division_type": "xã",
+                    "codename": "xa_ha_bang",
+                    "district_code": 276
+                },
+                {
+                    "name": "Xã Đồng Trúc",
+                    "code": 10012,
+                    "division_type": "xã",
+                    "codename": "xa_dong_truc",
+                    "district_code": 276
+                }
+            ]
+        },
+        {
+            "name": "Huyện Chương Mỹ",
+            "code": 277,
+            "division_type": "huyện",
+            "codename": "huyen_chuong_my",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Chúc Sơn",
+                    "code": 10015,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_chuc_son",
+                    "district_code": 277
+                },
+                {
+                    "name": "Thị trấn Xuân Mai",
+                    "code": 10018,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_xuan_mai",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Phụng Châu",
+                    "code": 10021,
+                    "division_type": "xã",
+                    "codename": "xa_phung_chau",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Tiên Phương",
+                    "code": 10024,
+                    "division_type": "xã",
+                    "codename": "xa_tien_phuong",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Đông Sơn",
+                    "code": 10027,
+                    "division_type": "xã",
+                    "codename": "xa_dong_son",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Đông Phương Yên",
+                    "code": 10030,
+                    "division_type": "xã",
+                    "codename": "xa_dong_phuong_yen",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Phú Nghĩa",
+                    "code": 10033,
+                    "division_type": "xã",
+                    "codename": "xa_phu_nghia",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Trường Yên",
+                    "code": 10039,
+                    "division_type": "xã",
+                    "codename": "xa_truong_yen",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Ngọc Hòa",
+                    "code": 10042,
+                    "division_type": "xã",
+                    "codename": "xa_ngoc_hoa",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Thủy Xuân Tiên",
+                    "code": 10045,
+                    "division_type": "xã",
+                    "codename": "xa_thuy_xuan_tien",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Thanh Bình",
+                    "code": 10048,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_binh",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Trung Hòa",
+                    "code": 10051,
+                    "division_type": "xã",
+                    "codename": "xa_trung_hoa",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Đại Yên",
+                    "code": 10054,
+                    "division_type": "xã",
+                    "codename": "xa_dai_yen",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Thụy Hương",
+                    "code": 10057,
+                    "division_type": "xã",
+                    "codename": "xa_thuy_huong",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Tốt Động",
+                    "code": 10060,
+                    "division_type": "xã",
+                    "codename": "xa_tot_dong",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Lam Điền",
+                    "code": 10063,
+                    "division_type": "xã",
+                    "codename": "xa_lam_dien",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Tân Tiến",
+                    "code": 10066,
+                    "division_type": "xã",
+                    "codename": "xa_tan_tien",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Nam Phương Tiến",
+                    "code": 10069,
+                    "division_type": "xã",
+                    "codename": "xa_nam_phuong_tien",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Hợp Đồng",
+                    "code": 10072,
+                    "division_type": "xã",
+                    "codename": "xa_hop_dong",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Hoàng Văn Thụ",
+                    "code": 10075,
+                    "division_type": "xã",
+                    "codename": "xa_hoang_van_thu",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Hoàng Diệu",
+                    "code": 10078,
+                    "division_type": "xã",
+                    "codename": "xa_hoang_dieu",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Hữu Văn",
+                    "code": 10081,
+                    "division_type": "xã",
+                    "codename": "xa_huu_van",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Quảng Bị",
+                    "code": 10084,
+                    "division_type": "xã",
+                    "codename": "xa_quang_bi",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Mỹ Lương",
+                    "code": 10087,
+                    "division_type": "xã",
+                    "codename": "xa_my_luong",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Thượng Vực",
+                    "code": 10090,
+                    "division_type": "xã",
+                    "codename": "xa_thuong_vuc",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Hồng Phong",
+                    "code": 10093,
+                    "division_type": "xã",
+                    "codename": "xa_hong_phong",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Đồng Phú",
+                    "code": 10096,
+                    "division_type": "xã",
+                    "codename": "xa_dong_phu",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Trần Phú",
+                    "code": 10099,
+                    "division_type": "xã",
+                    "codename": "xa_tran_phu",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Văn Võ",
+                    "code": 10102,
+                    "division_type": "xã",
+                    "codename": "xa_van_vo",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Đồng Lạc",
+                    "code": 10105,
+                    "division_type": "xã",
+                    "codename": "xa_dong_lac",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Hòa Chính",
+                    "code": 10108,
+                    "division_type": "xã",
+                    "codename": "xa_hoa_chinh",
+                    "district_code": 277
+                },
+                {
+                    "name": "Xã Phú Nam An",
+                    "code": 10111,
+                    "division_type": "xã",
+                    "codename": "xa_phu_nam_an",
+                    "district_code": 277
+                }
+            ]
+        },
+        {
+            "name": "Huyện Thanh Oai",
+            "code": 278,
+            "division_type": "huyện",
+            "codename": "huyen_thanh_oai",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Kim Bài",
+                    "code": 10114,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_kim_bai",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Cự Khê",
+                    "code": 10120,
+                    "division_type": "xã",
+                    "codename": "xa_cu_khe",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Bích Hòa",
+                    "code": 10126,
+                    "division_type": "xã",
+                    "codename": "xa_bich_hoa",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Mỹ Hưng",
+                    "code": 10129,
+                    "division_type": "xã",
+                    "codename": "xa_my_hung",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Cao Viên",
+                    "code": 10132,
+                    "division_type": "xã",
+                    "codename": "xa_cao_vien",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Bình Minh",
+                    "code": 10135,
+                    "division_type": "xã",
+                    "codename": "xa_binh_minh",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Tam Hưng",
+                    "code": 10138,
+                    "division_type": "xã",
+                    "codename": "xa_tam_hung",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Thanh Cao",
+                    "code": 10141,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_cao",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Thanh Thùy",
+                    "code": 10144,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_thuy",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Thanh Mai",
+                    "code": 10147,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_mai",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Thanh Văn",
+                    "code": 10150,
+                    "division_type": "xã",
+                    "codename": "xa_thanh_van",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Đỗ Động",
+                    "code": 10153,
+                    "division_type": "xã",
+                    "codename": "xa_do_dong",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Kim An",
+                    "code": 10156,
+                    "division_type": "xã",
+                    "codename": "xa_kim_an",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Kim Thư",
+                    "code": 10159,
+                    "division_type": "xã",
+                    "codename": "xa_kim_thu",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Phương Trung",
+                    "code": 10162,
+                    "division_type": "xã",
+                    "codename": "xa_phuong_trung",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Tân Ước",
+                    "code": 10165,
+                    "division_type": "xã",
+                    "codename": "xa_tan_uoc",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Dân Hòa",
+                    "code": 10168,
+                    "division_type": "xã",
+                    "codename": "xa_dan_hoa",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Liên Châu",
+                    "code": 10171,
+                    "division_type": "xã",
+                    "codename": "xa_lien_chau",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Cao Dương",
+                    "code": 10174,
+                    "division_type": "xã",
+                    "codename": "xa_cao_duong",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Xuân Dương",
+                    "code": 10177,
+                    "division_type": "xã",
+                    "codename": "xa_xuan_duong",
+                    "district_code": 278
+                },
+                {
+                    "name": "Xã Hồng Dương",
+                    "code": 10180,
+                    "division_type": "xã",
+                    "codename": "xa_hong_duong",
+                    "district_code": 278
+                }
+            ]
+        },
+        {
+            "name": "Huyện Thường Tín",
+            "code": 279,
+            "division_type": "huyện",
+            "codename": "huyen_thuong_tin",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Thường Tín",
+                    "code": 10183,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_thuong_tin",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Ninh Sở",
+                    "code": 10186,
+                    "division_type": "xã",
+                    "codename": "xa_ninh_so",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Nhị Khê",
+                    "code": 10189,
+                    "division_type": "xã",
+                    "codename": "xa_nhi_khe",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Duyên Thái",
+                    "code": 10192,
+                    "division_type": "xã",
+                    "codename": "xa_duyen_thai",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Khánh Hà",
+                    "code": 10195,
+                    "division_type": "xã",
+                    "codename": "xa_khanh_ha",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Hòa Bình",
+                    "code": 10198,
+                    "division_type": "xã",
+                    "codename": "xa_hoa_binh",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Văn Bình",
+                    "code": 10201,
+                    "division_type": "xã",
+                    "codename": "xa_van_binh",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Hiền Giang",
+                    "code": 10204,
+                    "division_type": "xã",
+                    "codename": "xa_hien_giang",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Hồng Vân",
+                    "code": 10207,
+                    "division_type": "xã",
+                    "codename": "xa_hong_van",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Vân Tảo",
+                    "code": 10210,
+                    "division_type": "xã",
+                    "codename": "xa_van_tao",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Liên Phương",
+                    "code": 10213,
+                    "division_type": "xã",
+                    "codename": "xa_lien_phuong",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Văn Phú",
+                    "code": 10216,
+                    "division_type": "xã",
+                    "codename": "xa_van_phu",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Tự Nhiên",
+                    "code": 10219,
+                    "division_type": "xã",
+                    "codename": "xa_tu_nhien",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Tiền Phong",
+                    "code": 10222,
+                    "division_type": "xã",
+                    "codename": "xa_tien_phong",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Hà Hồi",
+                    "code": 10225,
+                    "division_type": "xã",
+                    "codename": "xa_ha_hoi",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Thư Phú",
+                    "code": 10228,
+                    "division_type": "xã",
+                    "codename": "xa_thu_phu",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Nguyễn Trãi",
+                    "code": 10231,
+                    "division_type": "xã",
+                    "codename": "xa_nguyen_trai",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Quất Động",
+                    "code": 10234,
+                    "division_type": "xã",
+                    "codename": "xa_quat_dong",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Chương Dương",
+                    "code": 10237,
+                    "division_type": "xã",
+                    "codename": "xa_chuong_duong",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Tân Minh",
+                    "code": 10240,
+                    "division_type": "xã",
+                    "codename": "xa_tan_minh",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Lê Lợi",
+                    "code": 10243,
+                    "division_type": "xã",
+                    "codename": "xa_le_loi",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Thắng Lợi",
+                    "code": 10246,
+                    "division_type": "xã",
+                    "codename": "xa_thang_loi",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Dũng Tiến",
+                    "code": 10249,
+                    "division_type": "xã",
+                    "codename": "xa_dung_tien",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Thống Nhất",
+                    "code": 10252,
+                    "division_type": "xã",
+                    "codename": "xa_thong_nhat",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Nghiêm Xuyên",
+                    "code": 10255,
+                    "division_type": "xã",
+                    "codename": "xa_nghiem_xuyen",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Tô Hiệu",
+                    "code": 10258,
+                    "division_type": "xã",
+                    "codename": "xa_to_hieu",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Văn Tự",
+                    "code": 10261,
+                    "division_type": "xã",
+                    "codename": "xa_van_tu",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Vạn Điểm",
+                    "code": 10264,
+                    "division_type": "xã",
+                    "codename": "xa_van_diem",
+                    "district_code": 279
+                },
+                {
+                    "name": "Xã Minh Cường",
+                    "code": 10267,
+                    "division_type": "xã",
+                    "codename": "xa_minh_cuong",
+                    "district_code": 279
+                }
+            ]
+        },
+        {
+            "name": "Huyện Phú Xuyên",
+            "code": 280,
+            "division_type": "huyện",
+            "codename": "huyen_phu_xuyen",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Phú Minh",
+                    "code": 10270,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_phu_minh",
+                    "district_code": 280
+                },
+                {
+                    "name": "Thị trấn Phú Xuyên",
+                    "code": 10273,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_phu_xuyen",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Hồng Minh",
+                    "code": 10276,
+                    "division_type": "xã",
+                    "codename": "xa_hong_minh",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Phượng Dực",
+                    "code": 10279,
+                    "division_type": "xã",
+                    "codename": "xa_phuong_duc",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Nam Tiến",
+                    "code": 10282,
+                    "division_type": "xã",
+                    "codename": "xa_nam_tien",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Tri Trung",
+                    "code": 10288,
+                    "division_type": "xã",
+                    "codename": "xa_tri_trung",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Đại Thắng",
+                    "code": 10291,
+                    "division_type": "xã",
+                    "codename": "xa_dai_thang",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Phú Túc",
+                    "code": 10294,
+                    "division_type": "xã",
+                    "codename": "xa_phu_tuc",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Văn Hoàng",
+                    "code": 10297,
+                    "division_type": "xã",
+                    "codename": "xa_van_hoang",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Hồng Thái",
+                    "code": 10300,
+                    "division_type": "xã",
+                    "codename": "xa_hong_thai",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Hoàng Long",
+                    "code": 10303,
+                    "division_type": "xã",
+                    "codename": "xa_hoang_long",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Quang Trung",
+                    "code": 10306,
+                    "division_type": "xã",
+                    "codename": "xa_quang_trung",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Nam Phong",
+                    "code": 10309,
+                    "division_type": "xã",
+                    "codename": "xa_nam_phong",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Nam Triều",
+                    "code": 10312,
+                    "division_type": "xã",
+                    "codename": "xa_nam_trieu",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Tân Dân",
+                    "code": 10315,
+                    "division_type": "xã",
+                    "codename": "xa_tan_dan",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Sơn Hà",
+                    "code": 10318,
+                    "division_type": "xã",
+                    "codename": "xa_son_ha",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Chuyên Mỹ",
+                    "code": 10321,
+                    "division_type": "xã",
+                    "codename": "xa_chuyen_my",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Khai Thái",
+                    "code": 10324,
+                    "division_type": "xã",
+                    "codename": "xa_khai_thai",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Phúc Tiến",
+                    "code": 10327,
+                    "division_type": "xã",
+                    "codename": "xa_phuc_tien",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Vân Từ",
+                    "code": 10330,
+                    "division_type": "xã",
+                    "codename": "xa_van_tu",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Tri Thủy",
+                    "code": 10333,
+                    "division_type": "xã",
+                    "codename": "xa_tri_thuy",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Đại Xuyên",
+                    "code": 10336,
+                    "division_type": "xã",
+                    "codename": "xa_dai_xuyen",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Phú Yên",
+                    "code": 10339,
+                    "division_type": "xã",
+                    "codename": "xa_phu_yen",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Bạch Hạ",
+                    "code": 10342,
+                    "division_type": "xã",
+                    "codename": "xa_bach_ha",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Quang Lãng",
+                    "code": 10345,
+                    "division_type": "xã",
+                    "codename": "xa_quang_lang",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Châu Can",
+                    "code": 10348,
+                    "division_type": "xã",
+                    "codename": "xa_chau_can",
+                    "district_code": 280
+                },
+                {
+                    "name": "Xã Minh Tân",
+                    "code": 10351,
+                    "division_type": "xã",
+                    "codename": "xa_minh_tan",
+                    "district_code": 280
+                }
+            ]
+        },
+        {
+            "name": "Huyện Ứng Hòa",
+            "code": 281,
+            "division_type": "huyện",
+            "codename": "huyen_ung_hoa",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Vân Đình",
+                    "code": 10354,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_van_dinh",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Viên An",
+                    "code": 10357,
+                    "division_type": "xã",
+                    "codename": "xa_vien_an",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Viên Nội",
+                    "code": 10360,
+                    "division_type": "xã",
+                    "codename": "xa_vien_noi",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Hoa Sơn",
+                    "code": 10363,
+                    "division_type": "xã",
+                    "codename": "xa_hoa_son",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Quảng Phú Cầu",
+                    "code": 10366,
+                    "division_type": "xã",
+                    "codename": "xa_quang_phu_cau",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Trường Thịnh",
+                    "code": 10369,
+                    "division_type": "xã",
+                    "codename": "xa_truong_thinh",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Cao Thành",
+                    "code": 10372,
+                    "division_type": "xã",
+                    "codename": "xa_cao_thanh",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Liên Bạt",
+                    "code": 10375,
+                    "division_type": "xã",
+                    "codename": "xa_lien_bat",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Sơn Công",
+                    "code": 10378,
+                    "division_type": "xã",
+                    "codename": "xa_son_cong",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Đồng Tiến",
+                    "code": 10381,
+                    "division_type": "xã",
+                    "codename": "xa_dong_tien",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Phương Tú",
+                    "code": 10384,
+                    "division_type": "xã",
+                    "codename": "xa_phuong_tu",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Trung Tú",
+                    "code": 10387,
+                    "division_type": "xã",
+                    "codename": "xa_trung_tu",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Đồng Tân",
+                    "code": 10390,
+                    "division_type": "xã",
+                    "codename": "xa_dong_tan",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Tảo Dương Văn",
+                    "code": 10393,
+                    "division_type": "xã",
+                    "codename": "xa_tao_duong_van",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Vạn Thái",
+                    "code": 10396,
+                    "division_type": "xã",
+                    "codename": "xa_van_thai",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Minh Đức",
+                    "code": 10399,
+                    "division_type": "xã",
+                    "codename": "xa_minh_duc",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Hòa Lâm",
+                    "code": 10402,
+                    "division_type": "xã",
+                    "codename": "xa_hoa_lam",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Hòa Xá",
+                    "code": 10405,
+                    "division_type": "xã",
+                    "codename": "xa_hoa_xa",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Trầm Lộng",
+                    "code": 10408,
+                    "division_type": "xã",
+                    "codename": "xa_tram_long",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Kim Đường",
+                    "code": 10411,
+                    "division_type": "xã",
+                    "codename": "xa_kim_duong",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Hòa Nam",
+                    "code": 10414,
+                    "division_type": "xã",
+                    "codename": "xa_hoa_nam",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Hòa Phú",
+                    "code": 10417,
+                    "division_type": "xã",
+                    "codename": "xa_hoa_phu",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Đội Bình",
+                    "code": 10420,
+                    "division_type": "xã",
+                    "codename": "xa_doi_binh",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Đại Hùng",
+                    "code": 10423,
+                    "division_type": "xã",
+                    "codename": "xa_dai_hung",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Đông Lỗ",
+                    "code": 10426,
+                    "division_type": "xã",
+                    "codename": "xa_dong_lo",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Phù Lưu",
+                    "code": 10429,
+                    "division_type": "xã",
+                    "codename": "xa_phu_luu",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Đại Cường",
+                    "code": 10432,
+                    "division_type": "xã",
+                    "codename": "xa_dai_cuong",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Lưu Hoàng",
+                    "code": 10435,
+                    "division_type": "xã",
+                    "codename": "xa_luu_hoang",
+                    "district_code": 281
+                },
+                {
+                    "name": "Xã Hồng Quang",
+                    "code": 10438,
+                    "division_type": "xã",
+                    "codename": "xa_hong_quang",
+                    "district_code": 281
+                }
+            ]
+        },
+        {
+            "name": "Huyện Mỹ Đức",
+            "code": 282,
+            "division_type": "huyện",
+            "codename": "huyen_my_duc",
+            "province_code": 1,
+            "wards": [
+                {
+                    "name": "Thị trấn Đại Nghĩa",
+                    "code": 10441,
+                    "division_type": "thị trấn",
+                    "codename": "thi_tran_dai_nghia",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Đồng Tâm",
+                    "code": 10444,
+                    "division_type": "xã",
+                    "codename": "xa_dong_tam",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Thượng Lâm",
+                    "code": 10447,
+                    "division_type": "xã",
+                    "codename": "xa_thuong_lam",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Tuy Lai",
+                    "code": 10450,
+                    "division_type": "xã",
+                    "codename": "xa_tuy_lai",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Phúc Lâm",
+                    "code": 10453,
+                    "division_type": "xã",
+                    "codename": "xa_phuc_lam",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Mỹ Thành",
+                    "code": 10456,
+                    "division_type": "xã",
+                    "codename": "xa_my_thanh",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Bột Xuyên",
+                    "code": 10459,
+                    "division_type": "xã",
+                    "codename": "xa_bot_xuyen",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã An Mỹ",
+                    "code": 10462,
+                    "division_type": "xã",
+                    "codename": "xa_an_my",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Hồng Sơn",
+                    "code": 10465,
+                    "division_type": "xã",
+                    "codename": "xa_hong_son",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Lê Thanh",
+                    "code": 10468,
+                    "division_type": "xã",
+                    "codename": "xa_le_thanh",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Xuy Xá",
+                    "code": 10471,
+                    "division_type": "xã",
+                    "codename": "xa_xuy_xa",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Phùng Xá",
+                    "code": 10474,
+                    "division_type": "xã",
+                    "codename": "xa_phung_xa",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Phù Lưu Tế",
+                    "code": 10477,
+                    "division_type": "xã",
+                    "codename": "xa_phu_luu_te",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Đại Hưng",
+                    "code": 10480,
+                    "division_type": "xã",
+                    "codename": "xa_dai_hung",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Vạn Kim",
+                    "code": 10483,
+                    "division_type": "xã",
+                    "codename": "xa_van_kim",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Đốc Tín",
+                    "code": 10486,
+                    "division_type": "xã",
+                    "codename": "xa_doc_tin",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Hương Sơn",
+                    "code": 10489,
+                    "division_type": "xã",
+                    "codename": "xa_huong_son",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Hùng Tiến",
+                    "code": 10492,
+                    "division_type": "xã",
+                    "codename": "xa_hung_tien",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã An Tiến",
+                    "code": 10495,
+                    "division_type": "xã",
+                    "codename": "xa_an_tien",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Hợp Tiến",
+                    "code": 10498,
+                    "division_type": "xã",
+                    "codename": "xa_hop_tien",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã Hợp Thanh",
+                    "code": 10501,
+                    "division_type": "xã",
+                    "codename": "xa_hop_thanh",
+                    "district_code": 282
+                },
+                {
+                    "name": "Xã An Phú",
+                    "code": 10504,
+                    "division_type": "xã",
+                    "codename": "xa_an_phu",
+                    "district_code": 282
+                }
+            ]
+        }
+    ]
+}

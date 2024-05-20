@@ -57,14 +57,18 @@ $(document).ready(function() {
            dataType : 'text',
            success: function(response) {
                // Xử lý kết quả trả về nếu cần
-               console.log('Request thành công: token');
+               let token = JSON.parse(response).token;
+               if (token)
+                    window.location.href = "/newsfeed";
+               else {
+                    $('.sign-in #password').val("")
+               }
            },
            error: function(xhr, status, error) {
                // Xử lý lỗi nếu có
+
+               $('.sign-in #password').val("")
                console.log('Lỗi trong quá trình gửi request:', error);
-           },
-           complete: function(response) {
-               // Xử lý lỗi nếu có
            }
 
        });
