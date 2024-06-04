@@ -1,17 +1,19 @@
 package com.example.GoldenHome.service;
 
-import com.example.GoldenHome.domain.model.CustomUserDetails;
-import com.example.GoldenHome.domain.model.entities.User;
-import com.example.GoldenHome.domain.model.request.RegisterRequest;
-import com.example.GoldenHome.domain.queries.repository.UserRepository;
+import com.example.GoldenHome.components.model.CustomUserDetails;
+import com.example.GoldenHome.components.model.entities.User;
+import com.example.GoldenHome.components.model.request.RegisterRequest;
+import com.example.GoldenHome.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
 import java.util.Optional;
 
 @RequiredArgsConstructor
@@ -31,7 +33,6 @@ public class UserService implements UserDetailsService {
         return new CustomUserDetails(optUser.get());
     }
 
-
     public User saveUser(RegisterRequest request) {
         User user = new User();
         user.setEmail(request.getEmail());
@@ -43,12 +44,14 @@ public class UserService implements UserDetailsService {
 
     }
 
-    public String doRegister(RegisterRequest request) throws DataIntegrityViolationException {
+    public ResponseEntity<Object> register(RegisterRequest request) {
 
         Optional<User> existingUser = userRepository.findByUsername(request.getUsername());
         if (existingUser.isPresent()) {
-            throw new DataIntegrityViolationException("User with username " + request.getUsername() + " already exists");
+            String msg = "User with username " + request.getUsername() + " already exists";
+            return new ResponseEntity<>(Map.of("result", msg), HttpStatus.BAD_REQUEST);
         }
-        return saveUser(request).getUsername();
+        String username = saveUser(request).getUsername();
+        return new ResponseEntity<>(username, HttpStatus.ACCEPTED);
     }
 }

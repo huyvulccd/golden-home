@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="/css/AccountPage.css">
+  <!-- <link rel="stylesheet" href="/static/css/AccountPage.css"> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="/js/AccountPage.js"></script>
@@ -17,7 +18,7 @@
 <div class="container" id="container">
   <div class="form-container sign-up">
     <form>
-      <h1>Create Account</h1>
+      <h1 style="width: max-content;">Create Account</h1>
       <div class="social-icons">
         <a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a>
         <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
@@ -26,9 +27,13 @@
       </div>
       <span>or use your email for registration</span>
       <input id="username" placeholder="username" type="text">
+      <label for="username" id="error-message" class="username"></label>
       <input id="email" placeholder="@gmail.com" type="email">
+      <label for="email" id="error-message" class="email"></label>
       <input id="password" placeholder="password" type="password">
+      <label for="password" id="error-message" class="password"></label>
       <button type="submit" id="submitBtn">Sign Up</button>
+      <label id="error-message" class="result"></label>
     </form>
   </div>
   <div class="form-container sign-in">
@@ -41,14 +46,17 @@
         <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
       </div>
       <span>or use your email and password</span>
-      <input type="text" id="username" maxlength="20" placeholder="Username">
-      <input type="password" id="password" maxlength="20" placeholder="Password">
+      <input type="text" id="username" maxlength="16" placeholder="Username">
+      <span id="error-message" class="username"></span>
+      <input type="password" id="password" maxlength="16" placeholder="Password">
+      <span id="error-message" class="password"></span>
       <div class="remember-me">
         <input type="checkbox" id="remember-signup">
         <label for="remember-signup">Remember me</label>
       </div>
       <a href="#">Forgot Your Password?</a>
       <button type="submit" id="submitBtn">Sign In</button>
+      <span id="error-message" class="result"></span>
     </form>
   </div>
   <div class="toggle-container">
@@ -67,9 +75,6 @@
       </div>
     </div>
   </div>
-</div>
-<div class="error-container" id="error-container">
-  <div class="error-message" id="username-error">Please enter a username</div>
 </div>
 </body>
 
